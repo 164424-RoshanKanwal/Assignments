@@ -1,0 +1,22 @@
+th{
+background-color: red;
+color: white;
+
+}
+
+#email {
+font-weight: bold;
+}
+
+
+table, tr, th, td{
+border: 1px dashed grey;
+
+}
+
+body {
+  background-image:url('car.jpeg');
+    background-repeat:no-repeat;
+background-size: 500px 300px;
+    background-position:right top;
+}

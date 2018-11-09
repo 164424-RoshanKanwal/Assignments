@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<button onclick = 'myprompt()'>Try it</button>
+<script type = "text/javascript">
+
+function myprompt(){
+
+var i;
+for (i = 1; i<=3; i++){
+var num = window.prompt("Enter a number between 1 to 30","15");
+if (num>30 || num<1){
+document.write("Invalid number. Add a number between 1 to 30" + "<br>");
+}
+else {var j;
+for (j=0; j<num; j++){
+document.write("* ");
+
+}
+document.write("<br>")
+}}}
+</script>
+
+</body>
+</html>

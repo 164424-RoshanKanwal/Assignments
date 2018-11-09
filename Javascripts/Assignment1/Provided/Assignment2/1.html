@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+
+<table>
+<form method = 'get' name = 'bmi'>
+<tr><th colspan='3'>
+BMI CALCULATOR
+</th></tr>
+
+<tr>
+<td>Name:</td>
+<td><input type = 'text' name='fname' value = 'Mark'></td>
+<td><input type = 'text' name='fname' value = 'John'></td>
+</tr><br>
+
+<tr>
+<td>Enter Your Body Mass (in Kgs):</td>
+<td><input type = 'number' step = '0.01' id = 'mmass'></td>
+<td><input type = 'number' step = '0.01' id = 'jmass'></td>
+<br></tr>
+
+<tr>
+<td>Enter Your Height (in meters):</td>
+<td><input type = 'number' step = '0.01' id = 'mheight'></td>
+<td><input type = 'number' step = '0.01' id = 'jheight'></td>
+</tr><br>
+
+<tr><td colspan='3'>
+<button onclick="getBMI()" >GET BMI </button>
+</form></table>
+
+<p id = 'demo'></p>
+
+<script type = "text/javascript">
+
+
+function getBMI(){
+var mm = document.bmi.mmass.value;
+var mh = document.bmi.mheight.value;
+var jm = document.bmi.jmass.value;
+var jh = document.bmi.jheight.value;
+var mbmi = mm/(mh*mh);
+var jbmi = jm/(jh*jh);
+
+document.write("The BMI of Mark is " + mbmi);
+
+document.write("<br>" + "The BMI of John is " + jbmi);
+
+if (mbmi>jbmi){
+document.write("<br>" + "The BMI of Mark is greater than John" + "<br>");
+}
+else
+{
+document.write("<br>" + "The BMI of John is greater than Mark" + "<br>");
+}
+}
+</script>
+</body>
+</html>

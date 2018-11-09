@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<form name = 'fahren'>
+<h1>CONVERT DEGREE FAHRENHEIT TO DEGREE CELSIUS</h1>
+Enter Temperature in Fahrenheit: <input type = 'number' step = '0.1' name='fah' required>
+<br><button onclick = 'ftc()'>Show results</button>
+
+</form>
+
+
+
+<script type = "text/javascript">
+
+function ftc(){
+var f = document.fahren.fah.value;
+var c = 1.8 * (f-32);
+var d = c.toFixed(2);
+if(f==""){
+alert("Please fill the textbox");
+} else{
+document.write("<h1>" + f + " Fahrenheit means " + d + " degree Celsius" + "</h1> ");
+}
+}
+</script>
+</body>
+</html>

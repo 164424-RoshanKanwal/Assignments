@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body >
+<h1>Winner of the Season</h1>
+<h2>Compare your teams here (minimum 2 teams & maximum 3 teams)</h2>
+<form name = 'winner'>Enter no. of teams to be compared:<input type='number' min='2' max='3' step='1' name = 'numteams'>
+<br>
+<button onclick='thewinner()'>Compare the teams</button>
+</form>
+
+<script type = "text/javascript">
+function thewinner(){
+var teams= document.winner.numteams.value;
+if(teams==2){
+var lines = ["<div name='table1>",
+"<table>",
+"<tr>
+<td>Enter Team Player Name:</td>
+<td><input type='text' value = 'John'></td>
+<td><input type='text' value = 'Mike'></td></td>
+</tr>",
+
+"<tr>
+<td>First Match Points:</td>
+<td><input type='number' ></td>
+<td><input type='number' ></td>
+</tr>",
+
+"<tr>
+<td>Second Match Points:</td>
+<td><input type='number' ></td>
+<td><input type='number' ></td>
+</tr>",
+
+"<tr>
+<td>Third Match Points:</td>
+<td><input type='number' ></td>
+<td><input type='number' ></td>
+</tr>",
+
+"<tr>
+<td colspan='3'><button >Compare</button></td>
+</tr>",
+"</table>",
+"</div>"].join("");
+
+document.write(lines);
+}
+else{
+
+
+}
+}
+</script>
+
+</body>
+</html>
+

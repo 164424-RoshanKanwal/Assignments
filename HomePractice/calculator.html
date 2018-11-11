@@ -1,0 +1,120 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<title>Calculator</title>
+</head>
+<style>
+
+div {
+margin-left: 600px;
+}
+table, td{
+border: 1px solid red;
+padding : 10px;}
+
+td{
+padding-left : 15px;
+}
+
+button{
+border-radius: 50%;
+}
+
+#only {
+text-align:right;
+}
+</style>
+
+<body>
+<div name="container">
+<form name="calculator">
+<table>
+	<tbody><tr>
+	<td colspan="4"><input type="text" id="only"></td>
+	</tr>
+	<tr>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="1" name='cal'>1</button></td>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="2" name='cal'>2</button></td>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="3" name='cal'>3</button></td>
+	<td><button onclick = "calculate(); return false;" name='cal'>=</button></td></tr>
+	<tr>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="4" name='cal'>4</button></td>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="5" name='cal'>5</button></td>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="6" name='cal'>6</button></td>
+	<td><button onclick = "addNum(); return false;" value="+" name='addn' id ='addp'>+</button></td></tr>
+	<tr>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="7" name='cal'>7</button></td>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="8" name='cal'>8</button></td>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="9" name='cal'>9</button></td>
+	<td><button onclick = "multiplyNum();return false; " value="*" name='addn' id ='multiply'>*</button></td></tr>
+	<tr>
+	<td><button onclick = "clr(); return false;" value="clr" name='cal'>clr</button></td>
+	<td><button onclick = "moveNumbers(this.value); return false;" value="0" name='cal'>0</button></td>
+	<td><button onclick = "divideNum(); return false;" value="/" name='cal' id ='division'>/</button></td>
+	<td><button onclick = "subNum(); return false;" value="-" name='cal' id ='substract'>-</button></td></tr>
+	
+	
+</tbody></table>
+	</form></div>
+	
+	<p id = 'd'></p>
+	<p id = 'de'></p>
+<script>
+var exp, num1, ad;
+function moveNumbers(n){
+exp = document.getElementById('only').value;
+exp = exp + n;
+document.getElementById('only').value = exp;
+
+}
+
+function calculate(){
+var np = parseInt(document.calculator.only.value);
+
+if (ad == '*'){
+
+document.getElementById('only').value = num1 * x;
+}
+else if (ad == '+'){
+document.getElementById('only').value = np+num1;
+}
+else if(ad == '-'){
+
+document.getElementById('only').value = num1 - x;
+}
+else {
+
+document.getElementById('only').value = num1 / x;
+}
+
+}
+function addNum(){
+ num1 = parseInt(document.calculator.only.value);
+ad =document.getElementById('addp').value;
+ clr();
+}
+ 
+ function subNum(){
+ num1 = parseInt(document.calculator.only.value);
+ad = document.getElementById('substract').value;
+ clr();
+}
+
+function multiplyNum(){
+
+ num1 = document.calculator.only.value;
+ad = document.getElementById('multiply').value;
+ clr();
+}
+
+function divideNum(){
+
+ num1 = document.calculator.only.value;
+ad = document.getElementById('division').value;
+
+ clr();
+}
+function clr(){
+document.getElementById('only').value= 0;
+}
+</script>
+</body></html>

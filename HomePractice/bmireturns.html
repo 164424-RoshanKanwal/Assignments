@@ -1,0 +1,78 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<title>Calculator</title>
+</head>
+<style>
+
+</style>
+
+<body>
+<div name="container">
+<form name="ybmi">
+<table>
+	<tbody><tr>
+	<td>Enter Your Name:</td>
+	<td><input type="text" id="fullname"></td>
+	<td><input type="text" id="fullname2"></td>
+	</tr>
+	<tr>
+	<td>Enter Your Mass:</td>
+	<td><input type="number" id="mass"></td>
+	<td><input type="number" id="mass2"></td></tr>
+	<tr>
+	<td>Enter Your Height:</td>
+	<td><input type="number" id="height" step ='0.01'>
+	<td><input type="number" id="height2" step ='0.01'></td></tr>
+	<tr><td></td>
+	<td colspan='2'><button onclick = "getBMI(); return false;" name='cal'>COMPARE YOUR BMI </button></td>
+	</tr>
+	
+
+	
+</tbody></table>
+	</form></div>
+	
+	<p id = 'd'></p>
+	<p id = 'de'></p>
+<script>
+
+function getBMI(){
+var person = {full_name:document.ybmi.fullname.value,
+			mass : document.ybmi.mass.value,
+			height : document.ybmi.height.value,
+			bmi : function() {
+			return document.ybmi.mass.value/((document.ybmi.height.value)*(document.ybmi.height.value))}};
+
+document.getElementById('d').innerHTML = person.full_name.toUpperCase() + "'s BMI is " + person.bmi();
+
+var person2 = {full_name2:document.ybmi.fullname2.value,
+			mass2 : document.ybmi.mass2.value,
+			height2 : document.ybmi.height2.value,
+			bmi2 : function() {
+			return document.ybmi.mass2.value/((document.ybmi.height2.value)*(document.ybmi.height2.value))}};
+
+document.getElementById('de').innerHTML = person2.full_name2.toUpperCase() + "'s BMI is " + person2.bmi2();
+
+if (person.bmi() > person2.bmi2())
+{
+console.log(person.full_name.toUpperCase() + "'s BMI is greater than " + person2.full_name2.toUpperCase());
+console.log(person.full_name.toUpperCase() + " = "+ person.bmi());
+console.log(person2.full_name2.toUpperCase() + " = "+ person2.bmi2());
+}
+else if (person.bmi() > person2.bmi2()){
+console.log(person.full_name.toUpperCase() + "'s BMI is equal to " + person2.full_name2.toUpperCase());
+console.log(person.full_name.toUpperCase() + " = " + person.bmi());
+console.log(person2.full_name2.toUpperCase() + " = " + person2.bmi2());
+}
+else{
+console.log(person2.full_name2.toUpperCase() + "'s BMI is greater than " + person.full_name.toUpperCase());
+console.log(person.full_name.toUpperCase() + " = " + person.bmi());
+console.log(person2.full_name2.toUpperCase() + " = " + person2.bmi2());
+}
+
+
+}
+
+
+</script>
+</body></html>

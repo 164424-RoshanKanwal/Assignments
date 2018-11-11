@@ -1,0 +1,57 @@
+<!DOCTYPE html><html><head>
+<meta charset="utf-8">
+<title>Tip Calculator</title>
+</head>
+<style>
+
+</style>
+
+<body>
+<h1>JOHN's TIP CALCULATOR</h1>
+<div name="container">
+<form name="calc">
+<table>
+<tr>
+<td>Enter your complete bill amount: </td>
+<td><input type='number' name = 'bill' id = 'bill'></td>
+</tr>
+<tr>
+<td>Your's tipping amount : </td>
+<td><input type='text' name = 'tip' id = 'tip'></td>
+</tr>
+<tr>
+<th colspan='2'><button onclick = "calctip(); return false;" name = 'caltip' id = 'caltip'>CALCULATE TIP</button></th>
+</tr>
+
+	
+</table>
+	</form></div>
+	
+	<p id = 'd'></p>
+	<p id = 'de'></p>
+<script>
+
+function calctip(){
+var amount = Number(document.calc.bill.value);
+
+if (amount > 0 && amount <= 50){
+console.log(0.2*amount);
+document.getElementById('tip').value = 0.2*amount;
+}
+else if(amount>50 && amount <=200){
+tip = 0.15*amount;
+document.getElementById('tip').value = tip;
+
+}
+else{
+tip = 0.1*amount;
+document.getElementById('tip').value = tip;
+
+}
+
+}
+
+
+
+</script>
+</body></html>

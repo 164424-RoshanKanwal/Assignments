@@ -1,0 +1,29 @@
+body{
+background-color: #eee;
+font-size: 80%;
+font-family: Arial;
+margin: 20px;
+}
+
+th{
+	background-color: black;
+	color: white;	
+}
+
+.intab{
+	width : 600px;
+}
+
+table, th, td{
+	
+	border : 1px double grey;
+	
+}
+	
+.summary tr:nth-child(odd) {
+	background: #eee;
+}
+
+.summary tr:nth-child(even) {
+	background: white;
+}

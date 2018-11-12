@@ -5,21 +5,22 @@
 </head>
 <body>
 <h1>Pizza Orders</h1>
-<div name="container">
-<form name="calc">
+<div name='container'>
+<form name='calc' onsubmit='enSummary(); return false;'>
 NAME: <input type = 'text' name = 'uname' id = 'uid' required /><br/>
 EMAIL:<input type = 'text' name = 'uemail' id = 'eid' required /><br/><br/>
-<b>TOPPINGS: </b><br/><br/>
-Extra Cheese:<input type = 'checkbox' name = 'tops' />&nbsp&nbsp
-Pepperoni:<input type = 'checkbox' name = 'tops' />&nbsp&nbsp
-Olives:<input type = 'checkbox' name = 'tops' />&nbsp&nbsp
-Bacon:<input type = 'checkbox' name = 'tops' />&nbsp&nbsp
-Tomatoes:<input type = 'checkbox' name = 'tops'/> &nbsp&nbsp
-Mushrooms:<input type = 'checkbox' name = 'tops' />&nbsp&nbsp
+<b>TOPPINGS (max. 2): </b><br/><br/>
+Extra Cheese:<input type = 'checkbox' name = 'extraCheese'  onclick='return keepCount()'/>&nbsp&nbsp
+Pepperoni:<input type = 'checkbox' name = 'pepperoni'  onclick='return keepCount()'/>&nbsp&nbsp
+Olives:<input type = 'checkbox' name = 'olives'  onclick='return keepCount()'/>&nbsp&nbsp
+Pepper:<input type = 'checkbox' name = 'pepper'  onclick='return keepCount()'/>&nbsp&nbsp
+Bacon:<input type = 'checkbox' name = 'bacon'  onclick='return keepCount()'/>&nbsp&nbsp
+Tomatoes:<input type = 'checkbox' name = 'tomatoes' onclick='return keepCount()'/> &nbsp&nbsp
+Mushrooms:<input type = 'checkbox' name = 'mushrooms' onclick='return keepCount()'/>&nbsp&nbsp
 <br><br/>
 <b>How do you want to take the pizza?</b>&nbsp&nbsp
-Delivery: <input type = 'radio' name = 'dels' required />&nbsp&nbsp
-Pick-up: <input type = 'radio' name = 'dels' />&nbsp&nbsp
+Delivery: <input type = 'radio' name = 'dels' id ='' required />&nbsp&nbsp
+Pick-up: <input type = 'radio' name = 'dels' id = 'take'/>&nbsp&nbsp
 <br/><br/>
 <b>Tip? </b><select>
 <option value = '15%'>15%</option>
@@ -29,14 +30,15 @@ Pick-up: <input type = 'radio' name = 'dels' />&nbsp&nbsp
 <br/>
 <hr/><br>
 Address: <br>
-<textarea rows='10' cols='50'required/></textarea><br><br>
+<textarea rows='10' cols='50' id = 'addr'required/></textarea><br><br>
 
 <input type ='submit' value = 'Submit'></button>&nbsp&nbsp&nbsp&nbsp
 <input type = 'reset' value='Reset'>&nbsp&nbsp&nbsp&nbsp
-<button>Show Summary</button>
+<button name = 'nss' onclick='getSummary(); return false;' id ='ss' disabled>Show Summary</button>
 	</form></div>
 	
 	<p id = 'd'></p>
 	<p id = 'de'></p>
-	<script src="pizza.js"></script>
+<script src="pizza.js">
+</script>
 </body></html>

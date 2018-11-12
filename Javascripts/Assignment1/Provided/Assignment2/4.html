@@ -7,52 +7,148 @@
 <h2>Compare your teams here (minimum 2 teams & maximum 3 teams)</h2>
 <form name = 'winner'>Enter no. of teams to be compared:<input type='number' min='2' max='3' step='1' name = 'numteams'>
 <br>
-<button onclick='thewinner()'>Compare the teams</button>
+<button onclick='thewinner(); return false;'>Compare the teams</button>
 </form>
 
-<script type = "text/javascript">
+<p id='demo'><p>
+<p id='demo2'><p>
+
+<script>
 function thewinner(){
 var teams= document.winner.numteams.value;
 if(teams==2){
-var lines = ["<div name='table1>",
+var lines = ["<div name='table1'>",
+"<form name = 'team2'>",
 "<table>",
-"<tr>
-<td>Enter Team Player Name:</td>
-<td><input type='text' value = 'John'></td>
-<td><input type='text' value = 'Mike'></td></td>
-</tr>",
+"<tr>",
+"<td>Enter Team Player Name:</td>",
+"<td><input type='text' value = 'John'></td>",
+"<td><input type='text' value = 'Mike'></td><br>",
+"</tr>",
 
-"<tr>
-<td>First Match Points:</td>
-<td><input type='number' ></td>
-<td><input type='number' ></td>
-</tr>",
+"<tr>",
+"<td>First Match Points:</td>",
+"<td><input type='number' name='jone'></td>",
+"<td><input type='number' name='mone'></td><br>",
+"</tr>",
 
-"<tr>
-<td>Second Match Points:</td>
-<td><input type='number' ></td>
-<td><input type='number' ></td>
-</tr>",
+"<tr>",
+"<td>Second Match Points:</td>",
+"<td><input type='number' name='jtwo'></td>",
+"<td><input type='number' name='mtwo'></td><br>",
+"</tr>",
 
-"<tr>
-<td>Third Match Points:</td>
-<td><input type='number' ></td>
-<td><input type='number' ></td>
-</tr>",
+"<tr>",
+"<td>Third Match Points:</td>",
+"<td><input type='number' name='jthree'></td>",
+"<td><input type='number' name='mthree'></td><br>",
+"</tr>",
 
-"<tr>
-<td colspan='3'><button >Compare</button></td>
-</tr>",
+"<tr>",
+"<td colspan='3'><button onclick='getComparison2(); return false'>Compare</button></td>",
+"</tr>",
 "</table>",
+"</form>",
 "</div>"].join("");
 
-document.write(lines);
+document.getElementById('demo').innerHTML = lines;
 }
 else{
+var lines = ["<div name='table1'>",
+"<form name = 'team3'>",
+"<table>",
+"<tr>",
+"<td>Enter Team Player Name:</td>",
+"<td><input type='text' value = 'John'></td>",
+"<td><input type='text' value = 'Mary'></td>",
+"<td><input type='text' value = 'Mike'></td><br>",
+"</tr>",
 
+"<tr>",
+"<td>First Match Points:</td>",
+"<td><input type='number' name='jone'></td>",
+"<td><input type='number' name='mione'></td>",
+"<td><input type='number' name='mone'></td><br>",
+"</tr>",
 
+"<tr>",
+"<td>Second Match Points:</td>",
+"<td><input type='number' name='jtwo'></td>",
+"<td><input type='number' name='mitwo'></td>",
+"<td><input type='number' name='mtwo'></td><br>",
+"</tr>",
+
+"<tr>",
+"<td>Third Match Points:</td>",
+"<td><input type='number' name='jthree'></td>",
+"<td><input type='number' name='mithree'></td>",
+"<td><input type='number' name='mthree'></td><br>",
+"</tr>",
+
+"<tr>",
+"<td colspan='4'><button onclick='getComparison3(); return false;'>Compare</button></td>",
+"</tr>",
+"</table>",
+"</form>",
+"</div>"].join("");
+
+document.getElementById('demo').innerHTML=lines;
 }
 }
+
+function getComparison2(){
+var j1 = document.team2.jone.value;
+var j2 = document.team2.jtwo.value;
+var j3 = document.team2.jthree.value;
+var m1 = document.team2.mone.value;
+var m2 = document.team2.mtwo.value;
+var m3 = document.team2.mthree.value;
+var javg = (j1 + j2 + j3)/3;
+var mavg = (m1 + m2 + m3)/3;
+
+if(javg>mavg){
+document.getElementById('demo2').innerHTML="John's Team is the WINNER";
+}
+else if(javg==mavg){
+document.getElementById('demo2').innerHTML="It's a TIE";
+}
+else{
+document.getElementById('demo2').innerHTML="Mike's Team is the WINNER";
+}
+
+}
+
+
+function getComparison3(){
+var j1 = document.team3.jone.value;
+var j2 = document.team3.jtwo.value;
+var j3 = document.team3.jthree.value;
+var m1 = document.team3.mone.value;
+var m2 = document.team3.mtwo.value;
+var m3 = document.team3.mthree.value;
+var mi1 = document.team3.mione.value;
+var mi2 = document.team3.mitwo.value;
+var mi3 = document.team3.mithree.value;
+var javg = (j1 + j2 + j3)/3;
+var mavg = (m1 + m2 + m3)/3;
+var miavg = (mi1 + mi2 + mi3)/3;
+if(javg>mavg && javg> miavg){
+document.getElementById('demo2').innerHTML="John's Team is the WINNER";
+}
+else if (javg<mavg && mavg> miavg){
+document.getElementById('demo2').innerHTML="Mike's Team is the WINNER";
+}
+else if(javg == mavg && javg == miavg){
+document.getElementById('demo2').innerHTML="It's a TIE"
+}
+else{
+document.getElementById('demo2').innerHTML="Mary's Team is the WINNER";
+}
+
+}
+
+
+
 </script>
 
 </body>

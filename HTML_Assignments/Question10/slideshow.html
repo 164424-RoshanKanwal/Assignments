@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<style>
+img{
+width:25%;
+vertical-align: middle;
+}
+
+
+</style>
+</head>
+<body>
+<div class='slideshow'>
+<div class='images'>
+<img src = '1.jpg' alt = 'No image'/></div>
+
+<div class='images'>
+<img src = '2.jpg' alt = 'No image'/></div>
+
+<div class='images'>
+<img src = '3.jpg' alt = 'No image'/></div>
+
+<div class='images'>
+<img src = '4.jpg' alt = 'No image'/></div>
+
+<div class='images'>
+<img src = '5.jpg' alt = 'No image'/></div>
+
+</div>
+
+
+<div>
+<Button onclick = 'plusSlides(-1)'>Previous</Button> 
+<Button onclick = 'plusSlides(1)'>Next</Button>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("images");
+  
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  
+  slides[slideIndex-1].style.display = "block";  
+ 
+}
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<p id ='demo'>Hello</p>
+<script>
+var name;
+ function Bank(bname, baccBal, baccN)
+{
+var accBal = baccBal;
+var accN = baccN;
+
+return{
+this.name = bname,
+withdraw : function(amt){
+accBal = accBal-amt;
+
+},
+deposit : function(amt){
+accBal = accBal + amt;
+
+},
+accBalance : function(){
+return "HEllo it is private";
+
+}
+}}
+var a = new Bank("roshan", 25000, 1234567890);
+console.log(a.name);
+
+
+</script>
+</body>
+</html>

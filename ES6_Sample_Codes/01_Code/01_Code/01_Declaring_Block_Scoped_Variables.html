@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html>
+  
+  <head>
+ 
+   	<title>Learning ECMAScript 6</title>
+
+    </head>
+  
+  <body>
+     
+   <script src="js/traceur.js"></script>
+      
+  <script src="js/bootstrap.js"></script>
+        
+<script type="module">
+			
+var prop = "Roshan";	
+var prop1 = "Kanwal";
+
+	var obj = {[prop+prop1]: "fullname", [prop+ "_id"]: 3};				
+ 	var obj3 = {[prop+"_address"]: "Boisar", [prop+ "_state"]: "Maharashtra"};	
+	var obj1 = { [prop+ "_city"]: "Boisar3"};	
+	
+	var obj2 = Object.assign({}, obj, obj1, obj3);
+
+
+console.log(obj2.Roshan_address);	
+console.log(obj2.Roshan_state);
+console.log(obj2.Roshan_id);
+console.log(obj2.Roshan_city);
+console.log(obj2.RoshanKanwal);	    
+ </script>
+  
+  </body>
+
+</html>

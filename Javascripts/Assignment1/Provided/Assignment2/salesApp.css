@@ -1,10 +1,28 @@
 form {
 background-color : lightblue;
 width : 25%;
-margin : auto;
+
 border : 3px solid grey;
 }
 body{
 	background-color : lightyellow;
 	
+}
+textarea{
+	color: red;
+	font-size: 21px;
+	
+}
+#invoice, td , tr, th {
+	
+border : 1px solid red;
+}
+
+td {
+	
+text-align: center;
+}
+
+.txt {
+	text-align: right;
 }

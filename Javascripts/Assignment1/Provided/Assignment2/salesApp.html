@@ -1,18 +1,11 @@
 <!DOCTYPE html><html><head>
 <meta charset="utf-8">
-<title>Pizza are here!!</title>
+<title>Coffees are here!!</title>
 </head>
 <link rel='stylesheet' type = 'text/css' href = 'salesApp.css'>
 <body>
-	<H2>We sell various Coffee Types:</H2>
-	
-	<OL>
-	<H3><li>REGULAR</H3></li>
-	<H3><li>DECAF<H3></li>
-	<H3><li>MOCHA</H3></li>
-	<OL>
 <div name='container'>
-	<form name='calc' >
+	<form name='calc' onsubmit='getOrder(); return false;'>
 
 	<h1>Coffee Lovers</h1>
 	
@@ -28,20 +21,91 @@
 	</tr>
 	
 	<tr>
-	<td rowspan='2'><button onclick='getOrder(); return false;'>Get All Coffees Here!</button> <!--why return false--><br></td>
+	<td rowspan='2'><input type ='submit' value='Get All Coffees Here!!!'/><!--why return false--><br></td>
 	</tr>
 	
 </table>
 	</form></div>
+	
+	<H2>We sell various Coffee Types:</H2>
+	
+	<OL>
+	<H3><li>REGULAR ($9/bag)</H3></li>
+	<H3><li>DECAF ($8/bag)<H3></li>
+	<H3><li>MOCHA ($11/bag)</H3></li>
+	<OL>
+	
+	
+	
+	<h3><textarea rows='3' cols='50'>
+	15% additional discount on purchase of $100 or above.
+	</textarea></h3>
+	
+	
+	<input type = 'text' name = 'print' id ='print' placeholder="Your Total bill amount will display here" style ='width : 300px'/>
 	<p id = 'd'></p>
 	<p id = 'de'></p>
+	
+	
+	
 <script>
 function getOrder(){
 var name = document.calc.userName.value;
 var contact = document.calc.userNum.value;
 
-var window.prompt("",);
+var regular = Number(window.prompt("How much REGULAR coffee bags do you need.","Enter Number of Bags"));
+var regTotal = regular * 9;
 
+var decaf = Number(window.prompt("How much DECAF coffee bags do you need.","Enter Number of Bags"));
+var decafTotal = decaf * 8;
+
+var mocha = Number(window.prompt("How much MOCHA coffee bags do you need.","Enter Number of Bags"));
+var mochaTotal = mocha * 11;
+
+var total = regTotal + decafTotal + mochaTotal;
+ if (total < 100){
+	document.getElementById('print').value = "Your total bill amount is " + total;
+ } else {
+ total = total - 0.15*total;
+ document.getElementById('print').value = "Your total bill amount is " + total;}
+ 
+ var invoiceButton = ['<button onclick = "getInvoice(); return false;">Get Invoice</button>'];
+ document.getElementById('d').innerHTML = invoiceButton;
+
+}
+
+function getInvoice(){
+var invoiceTable = ["<table id = 'invoice' name = 'invoiceT'>",
+	"<tr>",
+	"<th>Types of Coffees</th>",
+	"<th>Quantity (in Bags)</th>",
+	"<th>Total</th>",
+	"</tr>",
+	"<tr>",
+	"<td>REGULAR</td>",
+	"<td class = 'txt'><input type ='text' name = 'regular' id = 'reg'></td>",
+	"<td class = 'txt'><input type ='text' name = 'decaf'></td>",
+	"</tr>",
+	"<tr>",
+	"<td>DECAF</td>",
+	"<td class = 'txt'><input type ='text' name = 'decaf'></td>",
+	"<td class = 'txt'><input type ='text' name = 'decaf'></td>",
+	"</tr>",
+	"<tr>",
+	"<td>MOCHA</td>",
+	"<td class = 'txt'><input type ='text' name = 'decaf'></td>",
+	"<td class = 'txt'><input type ='text' name = 'decaf'></td>",
+	"</tr>",
+	"<tr>",
+	"<th class = 'txt'>Total</th>",
+	"<td></td>",
+	"<td ><input type ='text' name = 'decaf'></td>",
+	"</tr>",
+	"</table>"].join("");
+
+	document.getElementById('de').innerHTML = invoiceTable;
+	
+	document.write(regular);
 }
 </script>
 </body></html>

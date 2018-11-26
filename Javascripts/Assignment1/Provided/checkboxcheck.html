@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<body><form name='checky' onsubmit='cally(); return false;'>
+
+We<input type='checkbox' name= 'we' id = 'txt1' onclick='keep(); return false;' value ='we'/><br>
+
+Wew<input type='checkbox' name= 'wew' id = 'txt2' onclick='keep(); return false;' value ='wew'/><br>
+
+Wee<input type='checkbox' name= 'wee' id = 'txt3' onclick='keep(); return false;' value ='wee'/><br>
+
+<input type='submit' value = 'Submit'>
+</form><br>
+
+<p id ='demo'></p>
+<p id ='demo1'></p>
+<script type="text/javascript">
+document.write("Hello World");
+function keep(){
+var coun = 0;
+if(document.checky.we.value)
+{coun += 1;}
+if(document.checky.wew.value) 
+{coun += 1;}
+if (document.checky.wee.value)
+{coun += 1;}
+if (coun==3){
+alert("we have selected already..");
+document.checky; return false;
+}
+
+}
+
+</script>
+</body>
+</html>

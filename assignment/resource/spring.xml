@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+   
+	
+   <beans>
+   <bean id ="customer1" class="com.roshan.assignment1.Customer">
+   <property name="customerId" value="1"></property>
+   <property name="customerName" value="Roshan"></property>
+   <property name="customerContact" value="8234567890"></property>
+   <property name="customerAddress" ref="address"></property>
+   </bean>
+   
+   
+   <bean id="address" class="com.roshan.assignment1.Address">
+   <property name ="street" value ="ABC"></property>
+   <property name ="city" value ="Bangalore"></property>
+   <property name ="state" value ="Karnataka"></property>
+   <property name ="zip" value ="560048"></property>
+   <property name ="country" value ="India"></property>
+   </bean>
+   
+   <bean id="answersSet" class="com.roshan.assignment2.AnswerSet">
+   <property name="answerSet">
+   <set>
+   <ref bean="question1"></ref>
+   <ref bean="question2"></ref>
+   <ref bean="question3"></ref>
+   </set>
+   </property>
+   </bean>
+   
+   <bean id="answersList" class="com.roshan.assignment2.AnswerList">
+   <property name ="answerList">
+   <list>
+   <ref bean="question1"></ref>
+   <ref bean="question2"></ref>
+   <ref bean="question3"></ref>
+   </list>
+   </property>
+   </bean>
+   
+   <bean id="answersMap" class="com.roshan.assignment2.AnswerMap">
+   <property name ="answerMap">
+   <map>
+   <entry key="1" value-ref="question1"></entry>
+   <entry key="2" value-ref="question2"></entry>
+   <entry key="3" value-ref="question3"></entry>
+   </map>
+   </property>
+   </bean>
+   
+   <bean id="question1" class="com.roshan.assignment2.Question">
+   <property name="questionId" value="1"></property>
+   <property name="question" value="Who?"></property>
+   <property name="answer" value="Roshan"></property>
+   </bean>
+   
+     <bean id="question2" class="com.roshan.assignment2.Question">
+   <property name="questionId" value="2"></property>
+   <property name="question" value="What?"></property>
+   <property name="answer" value="Hello"></property>
+   </bean>
+   
+     <bean id="question3" class="com.roshan.assignment2.Question">
+   <property name="questionId" value="3"></property>
+   <property name="question" value="Where?"></property>
+   <property name="answer" value="Bangalore"></property>
+   </bean>
+   
+   <bean id="questionA" class="com.roshan.assignment2.multiple.Question">
+   <property name="questionId" value="1"></property>
+    <property name="question" value="Who?"></property>
+    
+    <property name ="answerList">
+    <list>
+    <value>RoshanList</value>
+    <value>RoshanList2</value>
+    <value>RoshanList3</value>
+    <value>RoshanList4</value>
+    </list>
+    </property>
+   
+    <property name ="answerSet">
+    <set>
+    <value>Roshanset</value>
+    <value>Roshanset2</value>
+    <value>Roshanset3</value>
+    <value>Roshanset4</value>
+    </set>
+    </property>
+    
+    <property name ="answerMap">
+    <map>
+    <entry key="1" value="RoshanMap"></entry>
+    <entry key="2" value="RoshanMap2"></entry>
+    <entry key="3" value="RoshanMap3"></entry>
+    <entry key="4" value="RoshanMap4"></entry>
+    </map>
+    </property>
+   </bean>
+   
+<!--    Create a BankAccount class with following attributes:
+		accountId, accountHolderName, accountType, accountBalance -->
+		
+	<bean id="bankAccount" class="com.roshan.assignment3.BankAccountController">
+	<property name="bankAccountList">
+	<list>
+	<ref bean="bankAccount1"></ref>
+	<ref bean="bankAccount2"></ref>
+	<ref bean="bankAccount3"></ref>
+	</list>
+	</property>
+	</bean>
+   
+   <bean id="bankAccount1" class="com.roshan.assignment3.BankAccount">
+   <property name = "accountId" value="100"></property>
+   <property name = "accountHolderName" value="Roshan"></property>
+   <property name = "accountType" value="Savings"></property>
+   <property name = "accountBalance" value="5000"></property>
+   </bean>
+   
+   <bean id="bankAccount2" class="com.roshan.assignment3.BankAccount">
+   <property name = "accountId" value="101"></property>
+   <property name = "accountHolderName" value="Kanwal"></property>
+   <property name = "accountType" value="Savings"></property>
+   <property name = "accountBalance" value="50000"></property>
+   </bean>
+   
+   <bean id="bankAccount3" class="com.roshan.assignment3.BankAccount">
+   <property name = "accountId" value="102"></property>
+   <property name = "accountHolderName" value="ABC"></property>
+   <property name = "accountType" value="Current"></property>
+   <property name = "accountBalance" value="15000"></property>
+   </bean>
+  </beans> 

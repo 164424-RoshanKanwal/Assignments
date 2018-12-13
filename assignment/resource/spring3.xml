@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+
+
+
+<!--    Create a BankAccount class with following attributes:
+		accountId, accountHolderName, accountType, accountBalance -->	
+<beans>
+
+	<bean id="bankAccountController" class ="com.roshan.assignment3.again.BankAccountController" autowire="byName">
+	</bean>
+
+	<bean id="bankAccountServiceImpl" class ="com.roshan.assignment3.again.BankAccountServiceImpl" autowire="byName">
+	</bean>
+
+	<bean id="bankAccountRepo" class="com.roshan.assignment3.again.BankAccountRepositoryImpl">
+	<property name="bankAccountList">
+	<list>
+	<ref bean="bankAccount1"></ref>
+	<ref bean="bankAccount2"></ref>
+	<ref bean="bankAccount3"></ref>
+	</list>
+	</property>
+	</bean>
+   
+   <bean id="bankAccount1" class="com.roshan.assignment3.again.BankAccount">
+   <property name = "accountId" value="100"></property>
+   <property name = "accountHolderName" value="Roshan"></property>
+   <property name = "accountType" value="Savings"></property>
+   <property name = "accountBalance" value="5000"></property>
+   </bean>
+   
+   <bean id="bankAccount2" class="com.roshan.assignment3.again.BankAccount">
+   <property name = "accountId" value="101"></property>
+   <property name = "accountHolderName" value="Kanwal"></property>
+   <property name = "accountType" value="Savings"></property>
+   <property name = "accountBalance" value="50000"></property>
+   </bean>
+   
+   <bean id="bankAccount3" class="com.roshan.assignment3.again.BankAccount">
+   <property name = "accountId" value="102"></property>
+   <property name = "accountHolderName" value="ABC"></property>
+   <property name = "accountType" value="Current"></property>
+   <property name = "accountBalance" value="15000"></property>
+   </bean>
+  </beans> 

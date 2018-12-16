@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Registration Page</title>
+<link rel="stylesheet" type="text/css" href = "register.css">
+</head>
+<body>
+
+<form  method ="get">
+<div class="box" >
+<h4 ><b>Registration</b></h4>
+
+<table>
+	<tr><td> Full Name:</td>
+	<td> <input type ="text" placeholder ="Enter your full name." id="name"  name="name" required></td></tr>
+	
+	<tr><td>Email:</td>
+	<td> <input type ="email" placeholder ="Enter your email." id="email" name="email"  required></td></tr>
+	
+	<tr><td>Password:</td>
+	<td> <input type ="password" placeholder ="Enter the password." id="password" name="password" required></td></tr>
+	
+	
+	
+	<tr><td>Confirm Password:</td>
+	<td> <input type ="password" placeholder ="Enter the password." id="cpassword" name="cpassword" required></td></tr>
+	
+	<tr><td>Address:</td>
+	<td> <input type ="text" placeholder ="Enter your Address." id="address" name="address"  required></td></tr>
+	
+	<tr><td>Phone Number:</td>
+	<td> <input type ="tel" placeholder ="Enter your phone num." id="mobile" name ="mobile" required></td></tr></table>
+	<br><br>
+	       <button class="one" onclick="userInfo(); return false">Register</button>
+
+      <button class="one" type="reset">Cancel</button>
+    
+
+</div>
+	</form>
+	
+	<p id="demo"> </p>
+
+<script src = "register.js">
+</script>
+</body>
+</html>

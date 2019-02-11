@@ -1,0 +1,6 @@
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Entities\bin\Debug\El_Entities.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Entities\bin\Debug\El_Entities.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Entities\obj\Debug\El_Entities.csprojAssemblyReference.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Entities\obj\Debug\El_Entities.csproj.CoreCompileInputs.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Entities\obj\Debug\El_Entities.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Entities\obj\Debug\El_Entities.pdb

@@ -1,0 +1,16 @@
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe.config
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentManagementSystem.exe
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentManagementSystem.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentBLL.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentEntity.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentException.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentDAL.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentBLL.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentEntity.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentException.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\bin\Debug\StudentDAL.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\obj\Debug\StudentManagementSystem.csprojAssemblyReference.cache
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\obj\Debug\StudentManagementSystem.csproj.CopyComplete
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\obj\Debug\StudentManagementSystem.exe
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentManagementSystem\obj\Debug\StudentManagementSystem.pdb

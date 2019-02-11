@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tax Calculator</title>
+<style type="text/css">
+h1{
+text-align: center;
+}
+
+</style>
+<script>
+function calculate(){
+                var salary=document.getElementById("salary").value;
+                var lic=document.getElementById("lic").value;
+                var mf=document.getElementById("mf").value;
+                var pf=document.getElementById("pf").value;
+                var temp=lic+mf+pf;
+                var Amount_80C=150000;
+                var Amount_80D=5000;
+                var taxableIncome=0;
+                var result=0;
+                if(salary>200000){
+                                if(temp<Amount_80C){
+                                                taxableIncome=salary-(temp+Amount_80D+200000);
+                                }
+                                else{
+                                                taxableIncome=salary-(Amount_80C+Amount_80D+200000);
+                                }
+                                result=calculateTax(taxableIncome);
+                }
+                else{
+                                result=0;
+                }
+                document.getElementById("result").innerHTML = result;
+                return false;
+}
+function calculateTax(taxableIncome){
+                var amount;
+                if(taxableIncome<=500000){
+                                amount=.05*taxableIncome;
+                }
+                else if(taxableIncome>500000 && taxableIncome<=1000000){
+                                amount=(500000*.05)+((taxableIncome-500000)*.1);
+                }
+                else if(taxableIncome>1000000 && taxableIncome<=1500000){
+                                amount=(500000*.05)+(500000*.1)+((taxableIncome-1000000)*.2);
+                }
+                else if(taxableIncome>1500000){
+                                amount=(500000*.05)+(500000*.1)+(500000*.2)+((taxableIncome-1500000)*.3);
+                }
+                return amount;
+}
+</script>
+</head>
+<body>
+<h1>Tax Calculator</h1>
+<form onsubmit="return calculate()" method="POST">
+<table align="center">
+<tr>
+<td>Enter Salary: </td>
+<td><input type="text" id="salary" pattern="[0-9]+" placeholder="Enter Salary" required></td>
+</tr>
+<tr>
+<td>80C: </td>
+<td><input type="text" id="80C" value="150000" readonly="readonly"></td>
+</tr>
+<tr>
+<td>Enter LIC Amount: </td>
+<td><input type="text" id="lic" pattern="[0-9]+" placeholder="Enter LIC Amount" required></td>
+</tr>
+<tr>
+<td>Enter Mutual Funds Amount: </td>
+<td><input type="text" id="mf" pattern="[0-9]+" placeholder="Enter Mutual Funds Amount" required></td>
+</tr>
+<tr>
+<td>Enter PF Amount: </td>
+<td><input type="text" id="pf" pattern="[0-9]+" placeholder="Enter PF Amount" required></td>
+</tr>
+<tr>
+<td>80D: </td>
+<td><input type="text" id="80D" value="5000" readonly="readonly"></td>
+</tr>
+<tr>
+<td><input type="submit" id="submit" value="Calculate Tax"></td>
+<td><input type="reset" id="reset" value="Clear"></td>
+</tr>
+</table>
+</form>
+<div id="result"></div>
+</body>
+</html>

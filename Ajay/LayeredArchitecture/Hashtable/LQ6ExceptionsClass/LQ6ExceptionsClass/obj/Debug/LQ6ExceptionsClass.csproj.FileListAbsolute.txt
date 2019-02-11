@@ -1,0 +1,7 @@
+C:\Users\rv17\source\repos\LQ6ExceptionsClass\LQ6ExceptionsClass\bin\Debug\LQ6ExceptionsClass.exe.config
+C:\Users\rv17\source\repos\LQ6ExceptionsClass\LQ6ExceptionsClass\bin\Debug\LQ6ExceptionsClass.exe
+C:\Users\rv17\source\repos\LQ6ExceptionsClass\LQ6ExceptionsClass\bin\Debug\LQ6ExceptionsClass.pdb
+C:\Users\rv17\source\repos\LQ6ExceptionsClass\LQ6ExceptionsClass\obj\Debug\LQ6ExceptionsClass.csprojAssemblyReference.cache
+C:\Users\rv17\source\repos\LQ6ExceptionsClass\LQ6ExceptionsClass\obj\Debug\LQ6ExceptionsClass.csproj.CoreCompileInputs.cache
+C:\Users\rv17\source\repos\LQ6ExceptionsClass\LQ6ExceptionsClass\obj\Debug\LQ6ExceptionsClass.exe
+C:\Users\rv17\source\repos\LQ6ExceptionsClass\LQ6ExceptionsClass\obj\Debug\LQ6ExceptionsClass.pdb

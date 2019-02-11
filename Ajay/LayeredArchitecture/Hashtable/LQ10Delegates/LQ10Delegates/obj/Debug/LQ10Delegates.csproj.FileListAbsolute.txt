@@ -1,0 +1,7 @@
+C:\Users\rv17\source\repos\LQ10Delegates\LQ10Delegates\bin\Debug\LQ10Delegates.exe.config
+C:\Users\rv17\source\repos\LQ10Delegates\LQ10Delegates\bin\Debug\LQ10Delegates.exe
+C:\Users\rv17\source\repos\LQ10Delegates\LQ10Delegates\bin\Debug\LQ10Delegates.pdb
+C:\Users\rv17\source\repos\LQ10Delegates\LQ10Delegates\obj\Debug\LQ10Delegates.csproj.CoreCompileInputs.cache
+C:\Users\rv17\source\repos\LQ10Delegates\LQ10Delegates\obj\Debug\LQ10Delegates.exe
+C:\Users\rv17\source\repos\LQ10Delegates\LQ10Delegates\obj\Debug\LQ10Delegates.pdb
+C:\Users\rv17\source\repos\LQ10Delegates\LQ10Delegates\obj\Debug\LQ10Delegates.csprojAssemblyReference.cache

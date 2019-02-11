@@ -1,0 +1,32 @@
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelmanagementSystem.exe.config
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelmanagementSystem.exe
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelmanagementSystem.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.csprojAssemblyReference.cache
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.exe
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelBAL.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelEntity.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelException.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelDAL.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelBAL.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelEntity.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelException.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelDAL.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.csproj.CopyComplete
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelmanagementSystem.exe.config
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelmanagementSystem.exe
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelmanagementSystem.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelBAL.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelEntity.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelException.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelDAL.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelBAL.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelEntity.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelException.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\bin\Debug\HotelDAL.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.csprojAssemblyReference.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.csproj.CoreCompileInputs.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.csproj.CopyComplete
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.exe
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\hotelmanagementsystem\HotelmanagementSystem\HotelmanagementSystem\obj\Debug\HotelmanagementSystem.pdb

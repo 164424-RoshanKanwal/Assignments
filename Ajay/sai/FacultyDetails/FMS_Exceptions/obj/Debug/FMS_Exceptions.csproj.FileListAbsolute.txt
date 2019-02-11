@@ -1,0 +1,12 @@
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Exceptions\bin\Debug\FMS_Exceptions.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Exceptions\bin\Debug\FMS_Exceptions.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.csprojAssemblyReference.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Exceptions\bin\Debug\FMS_Exceptions.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Exceptions\bin\Debug\FMS_Exceptions.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.csprojAssemblyReference.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Exceptions\obj\Debug\FMS_Exceptions.pdb

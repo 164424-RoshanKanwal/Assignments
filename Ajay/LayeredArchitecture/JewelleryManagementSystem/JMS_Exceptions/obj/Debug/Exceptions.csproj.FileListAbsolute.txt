@@ -1,0 +1,6 @@
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Exceptions\bin\Debug\JMS_Exceptions.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Exceptions\bin\Debug\JMS_Exceptions.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Exceptions\obj\Debug\Exceptions.csprojAssemblyReference.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Exceptions\obj\Debug\Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Exceptions\obj\Debug\JMS_Exceptions.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Exceptions\obj\Debug\JMS_Exceptions.pdb

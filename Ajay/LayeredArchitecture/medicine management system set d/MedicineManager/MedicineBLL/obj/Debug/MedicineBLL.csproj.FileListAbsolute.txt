@@ -1,0 +1,13 @@
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineBLL.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineBLL.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineDAL.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineEntity.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineException.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineDAL.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineEntity.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\bin\Debug\MedicineException.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\obj\Debug\MedicineBLL.csprojAssemblyReference.cache
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\obj\Debug\MedicineBLL.csproj.CoreCompileInputs.cache
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\obj\Debug\MedicineBLL.csproj.CopyComplete
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\obj\Debug\MedicineBLL.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineBLL\obj\Debug\MedicineBLL.pdb

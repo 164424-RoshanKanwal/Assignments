@@ -1,0 +1,13 @@
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_BAl.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_BAl.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_DAL.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_Entities.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_Exceptions.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_DAL.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_Entities.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\bin\Debug\JMS_Exceptions.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\obj\Debug\BAL.csprojAssemblyReference.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\obj\Debug\BAL.csproj.CopyComplete
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\obj\Debug\JMS_BAl.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_BAl\obj\Debug\JMS_BAl.pdb

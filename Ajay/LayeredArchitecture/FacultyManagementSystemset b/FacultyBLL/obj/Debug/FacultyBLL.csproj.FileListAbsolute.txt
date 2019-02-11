@@ -1,0 +1,26 @@
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyBLL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyBLL.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyDAL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyException.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyDAL.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyEntity.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyException.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.csprojAssemblyReference.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.csproj.CoreCompileInputs.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.csproj.CopyComplete
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyBLL.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyBLL.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyDAL.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyEntity.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyException.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyDAL.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyEntity.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\bin\Debug\FacultyException.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\obj\Debug\FacultyBLL.csprojAssemblyReference.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\obj\Debug\FacultyBLL.csproj.CoreCompileInputs.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\obj\Debug\FacultyBLL.csproj.CopyComplete
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\obj\Debug\FacultyBLL.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyBLL\obj\Debug\FacultyBLL.pdb

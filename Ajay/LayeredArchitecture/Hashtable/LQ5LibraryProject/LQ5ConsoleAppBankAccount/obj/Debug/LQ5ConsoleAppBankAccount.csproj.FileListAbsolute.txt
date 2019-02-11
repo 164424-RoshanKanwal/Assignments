@@ -1,0 +1,10 @@
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\bin\Debug\LQ5ConsoleAppBankAccount.exe.config
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\bin\Debug\LQ5ConsoleAppBankAccount.exe
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\bin\Debug\LQ5ConsoleAppBankAccount.pdb
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\bin\Debug\LQ5LibraryProject.dll
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\bin\Debug\LQ5LibraryProject.pdb
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\obj\Debug\LQ5ConsoleAppBankAccount.csprojAssemblyReference.cache
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\obj\Debug\LQ5ConsoleAppBankAccount.csproj.CoreCompileInputs.cache
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\obj\Debug\LQ5ConsoleAppBankAccount.csproj.CopyComplete
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\obj\Debug\LQ5ConsoleAppBankAccount.exe
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5ConsoleAppBankAccount\obj\Debug\LQ5ConsoleAppBankAccount.pdb

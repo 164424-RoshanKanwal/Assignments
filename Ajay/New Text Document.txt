@@ -1,0 +1,10 @@
+Download the latest epel-release rpm from
+
+http://dl.fedoraproject.org/pub/epel/6/x86_64/
+
+Install epel-release rpm:
+
+# rpm -Uvh epel-release*rpm
+
+Install docker-io rpm package:
+# yum --enablerepo=epel-testing install docker-io

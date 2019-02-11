@@ -1,0 +1,5 @@
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineException\obj\Debug\MedicineException.csproj.CoreCompileInputs.cache
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineException\bin\Debug\MedicineException.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineException\bin\Debug\MedicineException.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineException\obj\Debug\MedicineException.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineException\obj\Debug\MedicineException.pdb

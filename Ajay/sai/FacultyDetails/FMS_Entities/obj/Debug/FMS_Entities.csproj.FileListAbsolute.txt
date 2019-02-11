@@ -1,0 +1,18 @@
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Entities\bin\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Entities\bin\Debug\FMS_Entities.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.csprojAssemblyReference.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.csproj.CoreCompileInputs.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_Entities\bin\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_Entities\bin\Debug\FMS_Entities.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.csprojAssemblyReference.cache
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.csproj.CoreCompileInputs.cache
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Entities\bin\Debug\FMS_Entities.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Entities\bin\Debug\FMS_Entities.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.csprojAssemblyReference.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.csproj.CoreCompileInputs.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_Entities\obj\Debug\FMS_Entities.pdb

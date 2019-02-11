@@ -1,0 +1,60 @@
+﻿<Window x:Class="MedicineManager.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedicineManager"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+
+        <Style TargetType="Label">
+            <Setter Property="Control.FontFamily" Value="Times New Roman" />
+            <Setter Property="Control.FontSize" Value="15" />
+            <Setter Property="Control.FontWeight" Value="Bold" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Name="lblMedName" Content="Medicine Name :" Grid.Row="0" Grid.Column="1" />
+        <TextBox Name="txtMedName" Grid.Row="0" Grid.Column="2"  Margin="5"/>
+        <Label Name="lblType" Content="Type :" Grid.Row="1" Grid.Column="1" />
+        <ComboBox Name="CbType" Grid.Row="1" Grid.Column="2" Margin="5" IsEditable="False">
+            <ComboBoxItem Content="Tablet"></ComboBoxItem>
+            <ComboBoxItem>Capsule</ComboBoxItem>
+            <ComboBoxItem>Ointment</ComboBoxItem>
+            <ComboBoxItem>Syrup</ComboBoxItem>
+        </ComboBox>
+        <Label Name="lblManufacturer" Content="Manufacturer :" Grid.Row="2" Grid.Column="1" />
+        <ComboBox Name="CbManufacturer" Grid.Row="2" Grid.Column="2" Margin="5" IsEditable="False">
+            <ComboBoxItem Content="Cipla"></ComboBoxItem>
+            <ComboBoxItem>Ranbaxy</ComboBoxItem>
+            <ComboBoxItem>Mankind</ComboBoxItem>
+        </ComboBox>
+        <Label Content="Batch No :" Grid.Row="3" Grid.Column="1" />
+        <TextBox Name="txtBatchNo" Grid.Row="3" Grid.Column="2"  Margin="5"/>
+        <Label Content="Manufacturer Date :" Grid.Row="4" Grid.Column="1" />
+        <DatePicker Name="dpManDate" Grid.Row="4" Grid.Column="2"/>
+        <Label Content="Expiry Date :" Grid.Row="5" Grid.Column="1" />
+        <DatePicker Name="dpExpiryDate" Grid.Row="5" Grid.Column="2"/>
+        <Label Content="Price :" Grid.Row="6" Grid.Column="1" />
+        <TextBox Name="txtPrice" Grid.Row="6" Grid.Column="2"  Margin="5"/>
+        <Button Name="btnAdd" Content="ADD" Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="2" Margin="5" Click="btnAdd_Click"/>
+    </Grid>
+</Window>

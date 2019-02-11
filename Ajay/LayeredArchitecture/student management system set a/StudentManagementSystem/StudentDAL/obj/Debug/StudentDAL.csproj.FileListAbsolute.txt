@@ -1,0 +1,11 @@
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\bin\Debug\StudentDAL.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\bin\Debug\StudentDAL.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\bin\Debug\StudentEntity.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\bin\Debug\StudentException.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\bin\Debug\StudentEntity.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\bin\Debug\StudentException.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\obj\Debug\StudentDAL.csprojAssemblyReference.cache
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\obj\Debug\StudentDAL.csproj.CoreCompileInputs.cache
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\obj\Debug\StudentDAL.csproj.CopyComplete
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\obj\Debug\StudentDAL.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentDAL\obj\Debug\StudentDAL.pdb

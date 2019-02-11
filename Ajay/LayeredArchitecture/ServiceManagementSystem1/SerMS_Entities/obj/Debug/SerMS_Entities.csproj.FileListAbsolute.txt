@@ -1,0 +1,6 @@
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Entities\bin\Debug\SerMS_Entities.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Entities\bin\Debug\SerMS_Entities.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Entities\obj\Debug\SerMS_Entities.csprojAssemblyReference.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Entities\obj\Debug\SerMS_Entities.csproj.CoreCompileInputs.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Entities\obj\Debug\SerMS_Entities.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Entities\obj\Debug\SerMS_Entities.pdb

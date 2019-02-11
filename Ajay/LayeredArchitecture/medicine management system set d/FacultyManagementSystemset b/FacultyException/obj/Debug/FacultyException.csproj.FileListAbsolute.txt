@@ -1,0 +1,5 @@
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyException\bin\Debug\FacultyException.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyException\bin\Debug\FacultyException.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyException\obj\Debug\FacultyException.csproj.CoreCompileInputs.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyException\obj\Debug\FacultyException.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyException\obj\Debug\FacultyException.pdb

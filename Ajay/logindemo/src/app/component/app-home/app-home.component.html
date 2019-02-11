@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html>
+<head>
+            <meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgACU1ZbGwQBVVNQBAgE"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t,n){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,n])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1118.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<title>Quikr</title>
+
+<link rel="shortcut icon" href="https://teja10.kuikr.com/public/pwa/qpreact/favicon.ico" type="image/x-icon" />
+
+<link rel="stylesheet" type="text/css" href="https://teja9.kuikr.com/public/core/css/bootstrap-quikr.1548244453.css">
+
+<meta property="fb:page_id" content="124493907579963" />
+<meta name="verify-v1" content="B4+06pfZSy175uIuS3HYJI9VOiellqDtn86ISgRY77U=" />
+<meta name="google-site-verification" content="CQqisoPXOtszMqxpC_sFphT7o4tsqbnW0cCQexsIirc" />
+<meta name="google-site-verification" content="jt5u06LcygO5syhi2g5LbDCux2BNYhvP0PunYetyWkk" />
+<meta name="msvalidate.01" content="634D83B5EBBDB7EA5B7FFDFEE863B60F" />
+<meta name="description" content=""/>
+	<link rel="canonical" href="/css-website-template+all_categories+qccc0s0002"/>
+<meta name="robots" content="nofollow" />
+<meta http-equiv="x-dns-prefetch-control" content="on" />
+
+<script src="https://teja10.kuikr.com/public/core/js/jquery-min.1524721302.js"></script>
+<script src="https://teja9.kuikr.com/public/core/js/im/strophe_min.1547532748.js"></script>
+<script src="https://teja9.kuikr.com/public/core/js/im/chatpnp.1548070262.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="https://teja9.kuikr.com/public/core/css/common.430313.css">
+
+<link rel="stylesheet" type="text/css" href="https://teja10.kuikr.com/public/core/dist/horizontal/snb.430363.css">
+
+<link rel="stylesheet" href="https://teja8.kuikr.com/module_assets/css/headercssv2-8c2a644afbdb588a8122.css"  type="text/css"/>
+
+
+        <section>
+            <div class="hidden-xs" id="mon_snb_mh" style="text-align: center;"></div>
+    </section>
+</head>
+<body>
+    <div id="loader-overlay"></div>
+    <div class="simple-overlay"></div>
+<header class="main-header" id="dHeaderAPI">
+	<div class="quikr-header fixed-header-hp" id="quikrcom-header">
+	
+	
+	
+
+		<div class="container">
+			<div class="quikr-header-child">
+<div class="hamburger-logo"><a href="javascript:void(0)" class="hamburger_nav" id="hamburger" data-togg="dropdown" data-area="hamBox" data-cname="www" data-cid="1" data-usid="false" data-usname="false" data-vname="horizontal" data-hamSubCats='%5B%5D' data-mcname="false" data-login="true" data-stlinks="%5B%7B%22name%22%3A%22For%20Businesses%22%2C%22icon%22%3A%22business%22%2C%22url%22%3A%22http%3A%2F%2Fwww.quikr.com%2FBusiness%3Faction%3DbusinessPage%22%7D%2C%7B%22name%22%3A%22Deals%20%26%20Offers%22%2C%22icon%22%3A%22deals%22%2C%22url%22%3A%22http%3A%2F%2Fwww.quikr.com%2Fdeals%2F%22%7D%5D"><i class="icon-hamburger"></i></a>
+<a href="//www.quikr.com" class="logo" id="quikrLogo"><img alt="Quikr" style="width:115px;" class="hidden-xs" src="https://teja8.kuikr.com/module_assets/images/quikr_logo.png"></a></div>
+
+    
+    
+   
+   
+<div class="quikr-search">
+    <button data-id="loader" class="search-btn btn-search" type="button" id="submitSearch" data-catName="">
+        <i class="icon-search"></i>
+    </button>
+    <div class="search-inner ">
+        
+            
+                
+                    <div class="select-category">
+                        <a href="javascript:;" data-togg="dropdown" data-area="category-dropdown" id="searchedCat">
+                            <span>
+                                
+                                    All Categories
+                            </span>
+                            <i class="icon-arrow"></i>
+                        </a>
+
+                        
+                            <div class="drop-layers cate-layer" style="display:none;" data-type="overlay" id="category-dropdown" data-action="focus"
+                                data-area="query">
+                                <ul>
+                                    <li>
+                                        <a href="javascript:void(0);" data-sc_cid="1" data-sc_gid="0" data-sc_cn="all" data-sc_dn="All Categories" title="All Categories">
+                                            All Categories
+                                        </a>
+                                    </li>
+                                    
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" data-sc_cid="262" data-sc_gid="60" data-sc_cn="cars-bikes"
+                                                    data-sc_dn="Cars &amp; Bikes" title="Cars &amp; Bikes">
+                                                    Cars &amp; Bikes
+                                                </a>
+                                            </li>
+                                            
+                                                
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" data-sc_cid="18224097" data-sc_gid="269" data-sc_cn="mobiles-tablets"
+                                                    data-sc_dn="Mobiles &amp; Tablets" title="Mobiles &amp; Tablets">
+                                                    Mobiles &amp; Tablets
+                                                </a>
+                                            </li>
+                                            
+                                                
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" data-sc_cid="18222212657" data-sc_gid="247" data-sc_cn="electronics-appliances"
+                                                    data-sc_dn="Electronics &amp; Appliances" title="Electronics &amp; Appliances">
+                                                    Electronics &amp; Appliances
+                                                </a>
+                                            </li>
+                                            
+                                                
+                                        
+                                          
+                                            
+                                                
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" data-sc_cid="270" data-sc_gid="93" data-sc_cn="jobs"
+                                                    data-sc_dn="Jobs" title="Jobs">
+                                                    Jobs
+                                                </a>
+                                            </li>
+                                            
+                                                
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" data-sc_cid="209" data-sc_gid="40" data-sc_cn="home-lifestyle"
+                                                    data-sc_dn="Home &amp; Lifestyle" title="Home &amp; Lifestyle">
+                                                    Home &amp; Lifestyle
+                                                </a>
+                                            </li>
+                                            
+                                                
+                                        
+                                            
+                                            
+                                                
+                                        
+                                         
+                                            
+                                                
+                                        
+                                            <li>
+                                                <a href="javascript:void(0);" data-sc_cid="1429" data-sc_gid="179" data-sc_cn="entertainment"
+                                                    data-sc_dn="Entertainment" title="Entertainment">
+                                                    Entertainment
+                                                </a>
+                                            </li>
+                                            
+                                                
+                                        
+                                           
+                                                
+                                </ul>
+                            </div>
+                            
+                    </div>
+                    
+                        <div class="search-field ">
+                            <form id="searchFormIndex" name="searchFormIndex" method="get" data-trending="1">
+                                <input type="text" id="query" name="query" placeholder="Search in All India" value="css website template"
+                                    autocomplete="off" />
+
+                                <input type="hidden" value="true" name="searchsubmit">
+
+                                <input type="hidden" value="" name="headerUserId" id="headerUserId">
+                                <input type="hidden" name="reference_surl" id="reference_surl" value="//www.quikr.com/qqurlqq-qqurlcat/qqurlqq/xqqurlcatid?sx=true">
+                                <input type="hidden" name="surl" id="surl" value="//www.quikr.com/qqurlqq-all/qqurlqq/z0?sx=true">
+                                <input type="hidden" name="categoryId" id="categoryId" value="1">
+                                <input type="hidden" name="searchKeyTemp" id="searchKeyTemp" value="Search in All India">
+                                <input type="hidden" name="metaCatId" id="metaCatId" value="0">
+                                <input type="hidden" id="metaCatIdChromeCacheClear" value="0" />
+                                <input type="hidden" id="isAutoSuggest" value="false">
+
+                                
+                            </form>
+                        </div>
+    </div>
+
+    <div id="searchautosuggestnew" class="search-layer" style="display:none;"></div>
+    <script id="autoSugg" type="text/x-handlebars-template">
+            <div class="scroll-layer">
+            <div class="seaech-heading">
+                <span>Suggestions</span>
+                <a href="#">Clear</a>
+            </div>
+            <div class="wrapResult" data-type="overlay">
+                {{#autoSugg}}
+                {{#if url}}
+                <a class="autoSuggestResult" tabindex="0" href="{{autosuggestUrl url}}" data-id="loader" >
+                    <i class="icon-search"></i>
+                    <label>
+                        <span class="autoSuggKeywords">{{{keyworddata}}}</span>
+                        <span class="autoSuggestSubCat">in {{subcatdata}}</span>
+                    </label>
+                </a>
+                {{/if}}
+                {{/autoSugg}}
+            </div>
+        </div>
+                
+        </script>
+
+    <div id="recentSearch" class="search-layer recent-search" style="display:none;">
+        <div id="recentContainer"></div>
+        <div id="trendingContainer"></div>
+    </div>
+
+</div>
+<div class="header-right"><ul>
+
+
+
+<li class="login-link">
+    
+
+    
+        <a href="javascript:;" id="loginLink" data-togg="modal" data-area="">
+            <span class="hidden-xs">
+                <i class="icon-my-account"></i> <label class="user-name">Login/Register</label> 
+            </span>
+          </a>
+    
+
+    
+        <div class="drop-layers my-account-layer" id="dashboardMenu" data-type="overlay" style="display:none;">
+            <ul>
+                
+                    
+                    
+                    <li  data-login=1  style=display:none>
+                        <a  id="myac"  href="http://www.quikr.com/MyQuikr" title="My Account"   >
+                            My Account
+                            
+                        </a>
+                    </li>
+                 <li  >
+                        <a  id="mycart"  href="http://www.quikr.com/QuikrX/Cart" title="My Cart"   >
+                            My Cart
+                            
+                                <span data-type=cart_count></span>
+                            
+                        </a>
+                    </li>
+               
+                
+                  <li  data-login=1  style=display:none>
+                        <a  id="acMyOrders"  href="" title="My Orders"   >
+                            My Orders
+                            
+                        </a>
+                  </li>
+                
+
+                <li style="padding: 10px;">
+                    
+                        <a href="javascript:;" id="signOutLink" class="login-reg-btn">Log Out</a>
+                    
+                    
+                </li>
+            </ul>
+        </div>
+    
+
+</ul></div>
+</div>
+		</div>
+	</div>
+	<div id="hamModal"></div>
+	
+</header>
+
+<!-- Login / Sign In pop up appears here from ajax START -->
+<input type="hidden" name="checkpopup" id="checkpopup" value="">
+<!--New value for popup login-->
+<input type="hidden" name="FBERROR" id="FBERROR" value="<?php echo TranslationManager::getTranslation('CannotAccessProfile','Cannot access your profile');?>" />
+<input type="hidden" name="quikrnxt" id="quikrnxt" value="<?php echo TranslationManager::getTranslation('quikrnxt','quikrnxt');?>" />
+<input type="hidden" name="InvalidSignIn" id="InvalidSignIn" value="<?php echo TranslationManager::getTranslation('InvalidSignIn','Invalid Email or User ID');?>" />
+<input type="hidden" name="PasswordEmpty" id="PasswordEmpty" value="<?php echo TranslationManager::getTranslation('PasswordEmpty','Password is empty');?>" />
+<div id="newlogindiv" data-type="overlay"></div>
+<!-- Sign In/ Sign Up Modal END -->
+<!-- Login / Sign In pop up appears here from ajax END -->
+
+<div id="cityPopupModal" class="modal" role="dialog" style="display:none;" data-type="overlay" data-gId="" data-catName="">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content city-modal">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+            <polygon points="14.6224146 4.92544493 13.5449735 3.84800385 9.23520924 8.15776816 4.92544493 3.84800385 3.84800385 4.92544493 8.15776816 9.23520924 3.84800385 13.5449735 4.92544493 14.6224146 9.23520924 10.3126503 13.5449735 14.6224146 14.6224146 13.5449735 10.3126503 9.23520924"></polygon>
+          </svg>
+        </button>
+        <h4 class="modal-title">Select your City</h4>
+      </div>
+
+      <div class="modal-body">
+          <div class="city-modal__content gps__searchbox">
+            <div class="city-modal__search">
+              <span class="search-icon">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   width="72px" height="72px" viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
+                <path d="M50,44.4H47l-1-1c3.6-4.2,5.8-9.7,5.8-15.7C51.8,14.3,41,3.5,27.7,3.5S3.5,14.3,3.5,27.7s10.8,24.2,24.2,24.2
+                  c6,0,11.5-2.2,15.7-5.8l1,1V50L63,68.5l5.5-5.5L50,44.4z M27.7,44.4c-9.3,0-16.7-7.5-16.7-16.7s7.5-16.7,16.7-16.7
+                  s16.7,7.5,16.7,16.7S36.9,44.4,27.7,44.4z"/>
+                </svg>
+              </span>
+              <input id="suggCityModal" class="city-modal__field" type="text" placeholder="Search from 950 Cities" />
+              <a class="detectCity" href="javascript:;">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               width="72px" height="72px" viewBox="0 0 72 72" enable-background="new 0 0 72 72" xml:space="preserve">
+                  <g>
+                    <circle cx="36" cy="36" r="15.8"/>
+                    <path d="M68.5,34h-5.6C61.9,20.6,51.1,10.1,38,9.1V3.5c0-1.1-0.9-2-2-2s-2,0.9-2,2v5.6C20.6,10.1,10.1,20.9,9.1,34
+                      H3.5c-1.1,0-2,0.9-2,2s0.9,2,2,2h5.6c1,13.4,11.8,23.9,24.9,24.9v5.6c0,1.1,0.9,2,2,2s2-0.9,2-2v-5.6c7.1-0.5,13.5-3.7,18.2-9.1
+                      c3.9-4.5,6.2-10,6.7-15.8h5.6c1.1,0,2-0.9,2-2S69.6,34,68.5,34z M53.2,51.2c-4,4.6-9.6,7.3-15.8,7.7c-12.6,0.8-23.5-8.8-24.3-21.4
+                      s8.8-23.5,21.4-24.3c0.5,0,1,0,1.5,0c12,0,22.1,9.4,22.9,21.5C59.3,40.7,57.3,46.6,53.2,51.2z"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div id="suggCitiesModal" class="suggestedCities"></div>
+
+          <div class="city-list-wrapp" id="cityPopupPopularCities">
+            <!-- <h4>Popular Cities on Quikr</h4> -->
+            <div class="city-modal__content city-modal__tab">
+              <a href="javascript:;" class="active">Popular Cities</a>
+              <a href="javascript:;">States</a>
+            </div>
+            
+            <div class="city-modal__content city-modal__body selectcities">
+              <ul class="popular-cities">
+                <li class="citySelect" data="Ahmedabad" g_id="0" city_id="22" type="popular">
+                    <a href="javascript:;">Ahmedabad</a>
+                </li>
+                <li class="citySelect" data="Bangalore"g_id="0" city_id="23" type="popular">
+                    <a href="javascript:;">Bangalore</a>
+                </li>
+                <li class="citySelect" data="Chandigarh" g_id="0" city_id="24" type="popular">
+                    <a href="javascript:;">Chandigarh</a>
+                </li>
+                <li class="citySelect" data="Chennai" g_id="0" city_id="25" type="popular">
+                    <a href="javascript:;" class="selcity-a">Chennai</a>
+                </li>
+              </ul> 
+
+              <ul class="popular-cities">
+                <li class="citySelect" data="Coimbatore" g_id="0" city_id="26" type="popular">
+                    <a href="javascript:;">Coimbatore</a>
+                </li>
+                <li class="citySelect" data="Delhi" g_id="0" city_id="27" type="popular">
+                    <a href="javascript:;">Delhi</a>
+                </li>
+                <li class="citySelect" data="Gurgaon" g_id="0" city_id="132222" type="popular">
+                    <a href="javascript:;">Gurgaon</a>
+                </li>
+                <li class="citySelect" data="Hyderabad" g_id="0" city_id="28" type="popular">
+                    <a href="javascript:;">Hyderabad</a>
+                </li>
+              </ul>   
+
+              <ul class="popular-cities">
+                <li class="citySelect" data="Jaipur" g_id="0" city_id="152222" type="popular">
+                    <a href="javascript:;">Jaipur</a>
+                </li>
+                <li class="citySelect" data="Kochi" g_id="0" city_id="29" type="popular">
+                    <a href="javascript:;">Kochi</a>
+                </li>
+                <li class="citySelect" data="Kolkata" g_id="0" city_id="30" type="popular">
+                    <a href="javascript:;">Kolkata</a>
+                </li>
+                <li class="citySelect" data="Lucknow" g_id="0" city_id="162222" type="popular">
+                    <a href="javascript:;">Lucknow</a>
+                </li>
+              </ul>
+
+              <ul class="popular-cities">
+                <li class="citySelect" data="Mumbai" g_id="0" city_id="31" type="popular">
+                    <a href="javascript:;">Mumbai</a>
+                </li>
+                <li class="citySelect" data="NaviMumbai" g_id="0" city_id="400701" type="popular">
+                    <a href="javascript:;">NaviMumbai</a>
+                </li>
+                <li class="citySelect" data="Noida" g_id="0" city_id="201301" type="popular">
+                    <a href="javascript:;">Noida</a>
+                </li>
+                <li class="citySelect" data="Pune" g_id="0" city_id="33" type="popular">
+                    <a href="javascript:;">Pune</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="city-modal__content city-modal__body selectstates" style="display: none">
+              <ul class="popular-cities js-state-list" style="text-align: left;">
+                <li class="citySelect" data="Andaman &amp; Nicobar Islands" state_id="1146884" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Andaman &amp; Nicobar Islands</a>
+                </li>
+                <li class="citySelect" data="Andhra Pradesh" state_id="1146885" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Andhra Pradesh</a>
+                </li>
+                <li class="citySelect" data="Arunachal Pradesh" state_id="1146886" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Arunachal Pradesh</a>
+                </li>
+                <li class="citySelect" data="Assam" state_id="1146887" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Assam</a>
+                </li>
+                <li class="citySelect" data="Bihar" state_id="1146888" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Bihar</a>
+                </li>
+                <li class="citySelect" data="Chandigarh" state_id="1146918" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Chandigarh</a>
+                </li>
+                <li class="citySelect" data="Chattisgarh" state_id="1146889" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Chattisgarh</a>
+                </li>
+                <li class="citySelect" data="Dadra &amp; Nagar Haveli" state_id="1146890" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Dadra &amp; Nagar Haveli</a>
+                </li>
+                <li class="citySelect" data="Daman &amp; Diu" state_id="1146891" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Daman &amp; Diu</a>
+                </li>
+              </ul>
+              <ul class="popular-cities js-state-list">
+                <li class="citySelect" data="Delhi" state_id="1146892" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Delhi</a>
+                </li>
+                <li class="citySelect" data="Goa" state_id="1146893" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Goa</a>
+                </li>
+                <li class="citySelect" data="Gujarat" state_id="1146894" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Gujarat</a>
+                </li>
+                <li class="citySelect" data="Haryana" state_id="1146895" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Haryana</a>
+                </li>
+                <li class="citySelect" data="Himachal Pradesh" state_id="1146896" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Himachal Pradesh</a>
+                </li>
+                <li class="citySelect" data="Jammu &amp; Kashmir" state_id="1146897" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Jammu &amp; Kashmir</a>
+                </li>
+                <li class="citySelect" data="Jharkhand" state_id="1146898" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Jharkhand</a>
+                </li>
+                <li class="citySelect" data="Karnataka" state_id="1146899" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Karnataka</a>
+                </li>
+                <li class="citySelect" data="Kerala" state_id="1146900" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Kerala</a>
+                </li>
+              </ul>
+              <ul class="popular-cities js-state-list">
+                <li class="citySelect" data="Lakshadweep" state_id="1146901" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Lakshadweep</a>
+                </li>
+                <li class="citySelect" data="Madhya Pradesh" state_id="1146902" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Madhya Pradesh</a>
+                </li>
+                <li class="citySelect" data="Maharashtra" state_id="1146903" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Maharashtra</a>
+                </li>
+                <li class="citySelect" data="Manipur" state_id="1146904" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Manipur</a>
+                </li>
+                <li class="citySelect" data="Meghalaya" state_id="1146905" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Meghalaya</a>
+                </li>
+                <li class="citySelect" data="Mizoram" state_id="1146906" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Mizoram</a>
+                </li>
+                <li class="citySelect" data="Nagaland" state_id="1146907" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Nagaland</a>
+                </li>
+                <li class="citySelect" data="Orissa" state_id="1146908" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Orissa</a>
+                </li>
+                <li class="citySelect" data="Pondicherry" state_id="1146909" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Pondicherry</a>
+                </li>
+              </ul>
+              <ul class="popular-cities js-state-list">
+                <li class="citySelect" data="Punjab" state_id="1146910" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Punjab</a>
+                </li>
+                <li class="citySelect" data="Rajasthan" state_id="1146911" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Rajasthan</a>
+                </li>
+                <li class="citySelect" data="Sikkim" state_id="1146912" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Sikkim</a>
+                </li>
+                <li class="citySelect" data="Tamil Nadu" state_id="1146913" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Tamil Nadu</a>
+                </li>
+                <li class="citySelect" data="Telangana" state_id="1146920" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Telangana</a>
+                </li>
+                <li class="citySelect" data="Tripura" state_id="1146914" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Tripura</a>
+                </li>
+                <li class="citySelect" data="Uttarakhand" state_id="1146916" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Uttarakhand</a>
+                </li>
+                <li class="citySelect" data="Uttar Pradesh" state_id="1146915" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">Uttar Pradesh</a>
+                </li>
+                <li class="citySelect" data="West Bengal" state_id="1146917" data-uid="120" data-from_search="0">
+                  <a role="menuitem" tabindex="-1" href="javascript:void(0)">West Bengal</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+      
+    </div>
+
+  </div>
+</div>
+<div class="new-snb-breadcrumb hidden-xs">
+    
+
+    <div class="container hidden-xs">
+       
+        <ul class="nav nav-pills">
+            <li><a href = https://www.quikr.com>Home</li>
+                    <li><a href =https://www.quikr.com/css-website-template+all_categories+qccc0s0002>All</li>
+                </ul>
+        
+         <div id="create-alert" class="alert-section hidden-lg">
+        <!--<div data-toggle="modal" data-target="#myModal" class="content-box create-alerts-mob visible-xs">-->
+        <!--<a href="#">Create Alerts <i class="icon-arrow"></i></a>-->
+    <!--</div>-->
+    
+    <section class="content-rows">
+        <div class="content-box receive-alert-wrapp">
+     
+            <div class="row" id="alert_box">
+                <div class="col-xs-6 col-sm-3">
+                    <div class="custom-form-controls">
+                        <a href="javascript:void(0)" class="select-dropdown" id="select_category" categoryid="0">Select Category *<i class="icon-arrow icon-arrow-down select-down-arrow"></i>
+                        </a>
+                        <ul id="select_category_dropdown" data-type="overlay" class="dropdown-open">
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="179" >Entertainment</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="123" >Services</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="93" >Jobs</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="40" >Home &amp; Lifestyle</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="60" >Cars &amp; Bikes</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="20" >Real Estate</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="194" >Education &amp; Training</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="246" >Pets &amp; Pet Care</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="247" >Electronics &amp; Appliances</a>
+                            </li>
+                                                <li>
+                                <a class="select_category" href="javascript:void(0);" catid="269" >Mobiles &amp; Tablets</a>
+                            </li>
+                                            </ul>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="custom-form-controls">
+                        <a href="javascript:void(0)" class="select-dropdown" id="select_subcategory" subcategoryid="0">Select Sub Category *<i class="icon-arrow icon-arrow-down select-down-arrow"></i>
+                        </a>
+                        <ul id="select_subcategory_dropdown" data-type="overlay" class="dropdown-open">
+    
+                        </ul>
+                    </div>
+                </div>
+                <div id ="attributesWrap"></div>
+                <!--<div class="col-xs-6 col-sm-3">-->
+                    <!--<div class="custom-form-controls">-->
+                        <!--<a href="javascript:void(0)" class="select-dropdown">I want to buy<i class="icon-arrow-down select-down-arrow"></i>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <div class="col-xs-6 col-sm-3">
+                    <div class="custom-form-controls">
+                        <a href="javascript:void(0)" class="select-dropdown" id="select_city" cityid ="1"><span id="city_text">Select City *</span><i class="icon-arrow icon-arrow-down select-down-arrow"></i>
+                        </a>
+                        <div id="city_lists_dropdown" class="city_dropdown drop-layers" data-type="overlay" style="display: none;">
+                            <div class="search-city">
+                                <div class="header-custom-controls">
+                                    <input type="text" id="alertCityinput">
+                                    <label class="">Type Your City Name</label>
+                                </div>
+                            </div>
+                            <div id="alertCitiesList">
+                                                            <ul id="select_city_dropdown">
+    
+    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="custom-form-controls">
+                        <a href="javascript:void(0)" class="select-dropdown" id="select_locality" localityid="0" title="Select Locality">Select Locality *<i class="icon-arrow icon-arrow-down select-down-arrow"></i>
+                        </a>
+    
+                        <div id="select_localities_dropdown" class="dropdown-open" data-type="overlay">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="custom-form-controls" id="EmailField">
+    
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-3">
+                    <div class="custom-form-controls" id="MobileField">
+    
+                    </div>
+                </div>
+               
+            </div>
+            
+        </div>
+    </section>
+    <div id="alert_success" class="response-succes-popup" style="display: none;" data-type="overlay">
+        <div id="alert_success_close" class="close-btn"><i class="icon-cross"></i></div>
+        <div class="icon-success"><i class="icon-tick"></i></div>
+        <h3>Thanks for creating alert, we will reach out to you with matching ads</h3>
+    </div>
+        </div>
+        <div id="alert_success_snb" class="response-succes-popup" style="display: none;" data-type="overlay">
+            <div id="alert_success_close" class="close-btn"><i class="icon-cross"></i></div>
+            <div class="icon-success"><i class="icon-tick"></i></div>
+            <h3>Thanks for creating the alert, we will reach out to you with matching ads</h3>
+        </div>
+    </div>
+    
+    
+    
+    
+    </div>
+<footer class="main-footer footer-logo">
+    <section class="content-rows hidden-xs download-app-section" style="display:none;"></section>
+
+    
+    <div class="container " id="quikr-footer">
+        <div class="footer-nav" style=padding-bottom:40px>
+            <div class="clearfix">
+                <!-- <div class="col-xs-12 col-sm-12 col-lg-8"> -->
+                <div class="col">
+                    <div class="clearfix">
+                        <nav>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'About us'});" href="/html/about.php" target="_parent">About Us</a>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Contact us'});" href="/html/contact.php" target="_parent">Contact Us</a>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Career'});" href="/html/jobs.php" target="_parent">Careers</a>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Quikr Videos'});" href="/video?id=vhS7M5IdOpI" target="_parent">Quikr Videos</a>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Advertise with us'});" href="/adsales" target="_parent">Advertise With Us</a>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Blog'});" href="http://blog.quikr.com" target="_parent">Blog</a>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Help'});" href="/help/" target="_parent">Help</a>
+                            <a onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Premium ads'});" href="/html/premium_ads.php" target="_parent">Premium Ads</a>
+                        </nav>
+                       
+                    </div>
+
+                   
+
+                    <!--<div class="subscribe-row">
+                        <h5>Subscribe to Us</h5>
+                        <div class="input-group search-fields subscribe-field">
+                            <input type="text" placeholder="Email" class="form-control">
+                            <span class="input-group-btn">
+                                <button type="button" class="btn btn-default btn-search">GO</button>
+                            </span>
+                        </div>
+                    </div>-->
+                  
+                </div>
+                <!-- </div> -->
+                <!-- <div class="col-xs-12 col-sm-12 col-lg-4"> -->
+               
+                    <div class="social-follows ">
+                        <h5>Follow Us</h5>
+                        <a href="#" onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Follow_us_facebook'});" title="Facebook" target="_blank">
+                            <i class="icon-facebook"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Follow_us_linkedin'});" title="LinkedIn" target="_blank">
+                            <i class="icon-linkedin"></i>
+                            <span>Linkedin</span>
+                        </a>
+                        <a href="#" onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Follow_us_googleplus'});" title="Google Plus" target="_blank">
+                            <i class="icon-googleplus"></i>
+                            <span>Google plus</span>
+                        </a>
+                        <a href="#" onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Follow_us_twitter'});" title="twitter" target="_blank">
+                            <i class="icon-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                        <a href="#" onclick="getEventTrackGA({'category':window.HEADER_GA_CATEGORY, 'action':'Footer','label':'Follow_us_youtube'});" title="YouTube" target="_blank">
+                            <i class="icon-youtube"></i>
+                            <span>You tube</span>
+                        </a>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            
+
+
+
+
+
+
+
+
+
+            <!-- </div> -->
+
+
+            <!-- <nav class="visible-xs text-center">
+                                                            <a href="http://bangalore.quikr.com/html/about.php" target="_parent">About Us</a>
+                                                                                <a href="http://bangalore.quikr.com/html/contact.php" target="_parent">Contact Us</a>
+                                                                                <a href="http://bangalore.quikr.com/html/jobs.php" target="_parent">Careers</a>
+                                                                                                                    <a href="http://bangalore.quikr.com/video?id=vhS7M5IdOpI" target="_parent">Quikr Videos</a>
+                                                                                <a href="http://bangalore.quikr.com/adsales" target="_parent">Advertise With Us</a>
+                                                                                <a href="http://blog.quikr.com" target="_parent">Blog</a>
+                                                                                <a href="http://bangalore.quikr.com/help/" target="_parent">Help</a>
+                                                                                <a href="http://bangalore.quikr.com/html/premium_ads.php" target="_parent">Premium Ads</a>
+                                                </nav> -->
+
+            <div class="tnc-txt clearfix">Copyright © 2008 - 2018 Quikr India Private Limited</div>
+        </div>
+    <div data-js="{&quot;isLoggedIn&quot;:false,&quot;userEmail&quot;:&quot;&quot;,&quot;userMobile&quot;:&quot;&quot;,&quot;userId&quot;:&quot;&quot;,&quot;searchKeyword&quot;:&quot;css website template&quot;,&quot;currentCity&quot;:&quot;www&quot;,&quot;currentCityId&quot;:&quot;1&quot;,&quot;level&quot;:99,&quot;PAGEREQUEST&quot;:&quot;REQUEST_SEARCHCAT&quot;,&quot;isCoreCategoryRequest&quot;:true,&quot;pageId&quot;:&quot;horizontal_snb&quot;,&quot;emailListPresenceStr&quot;:&quot;;308685367,1c9b9838a018e1370bef3d679695b53daW5mb0BwcmVjaXplbndlYi5jb20=,,;309084561,d9a596c88d4031965b93c310e171ea14aWFtdXNlcjEyM0BnbWFpbC5jb20=,,;316188507,5c356154d4eb9c14a9e84191a31f48a9bWFuaXNoY2hhdWhhbjM1MEBnbWFpbC5jb20=,,;314169414,42bda2ea75fadba3b42433b5dad212e0aW5mb0B1bWFyem9uZS5jb20=,,;316165792,a089e54a25e42b2fd82669b3e1867d91am9ic0BpbmludHJhLmNvbQ==,,;315896991,263b3e47449bd8e60026e8eaa4170a7aaHJtQGhleGFtYXJ2ZWwuY29t,,;315849060,a3c986b9abcf539bab380ddc4aa7058dYWJpbmFzaC5zd29zdGlrZ3JvdXBAZ21haWwuY29t,,;315706904,703fecaac98face063c9a95f38172498bWt0QG9tc29mdHNvbHV0aW9uLmNvLmlu,,;315398788,a9dcfffa106a3cf1e7ebc17b35314651bW9oZC5hYXplZXpAc2hhaGVlbmdyb3VwLm9yZw==,,;315566889,419ca54c652059f95a2a6e1ff7438019aW5mb0B0ZWNpb25zLmNvbQ==,,;314626018,fd2d12351f72c60457b84b9cb1c763b9dmFrcmF0dW5kYWNvbnN1bHRhbmN5QGdtYWlsLmNvbQ==,,;315321571,d41a1655b4b675082a53d31171b1bb98aHJAcHJldmFqY29uc3VsdGFudHMuY29t,,;308625675,050aa1a7746c6d046a958c6885f43b28bmVlcmFqZGhhd2FuMDAwNUBnbWFpbC5jb20=,,;309084699,40000fe2b69cad12c80c03c2f76c15f3aWFtdXNlcjEyM0BnbWFpbC5jb20=,,;315191311,5ff9405f685fd64c945587a0e8fe5d5cMzYwZGVncmVlaW5mb0BnbWFpbC5jb20=,,;315044864,101cdbe085f193c864b23d2c209f1befc2h3ZXRhYmhhcmR3YWoubWJhQGdtYWlsLmNvbQ==,,;314996656,bd5bcb46de4ce970bd2bd244fd3ff6f8aHJAdG9ybmFkb3NvZnR3YXJlLm5ldA==,,;314205211,b6470da83c576d6c4c96c13321cacc6baHJAcXVhbnRhemlzLmNvbQ==,,;313034999,43cc2ef9b8838376fbf3de173b774149a3Jpc2l5ZXI2MEBnbWFpbC5jb20=,,;314596810,11c604ca218e1f9e9899419040382100cGFydmluZGVyQHN0YXJ0c29sYXIuY28uaW4=,,;313943766,ef474b204b16ea6a45c2804b170d4808aW5mb0BzYnNzb25saW5lLmNvbQ==,,;314093145,a2effe3560b0c8005a6b4c991007e10aMzYwZGVncmVlaW5mb2hyMTIzQGdtYWlsLmNvbQ==,,;314013675,789873beac36bad9d61d38f38592e3b1dGFydW4uYWx3YWRoaUBpcHJvY2Vzcy5pbg==,,;313736356,c1c34f00500683c0e130405e2f9d3c68dmlzYTFAYWx5b3VzdWZlbnQuY29t,,&quot;,&quot;QNextShared&quot;:{&quot;isLoggedIn&quot;:false,&quot;requestType&quot;:&quot;REQUEST_SEARCHCAT&quot;,&quot;isMobileRequest&quot;:false,&quot;loginExperimentVersion&quot;:4,&quot;loginExperimentSuffix&quot;:&quot;_Minimal&quot;,&quot;environment&quot;:&quot;prod&quot;,&quot;loginModalCssPath&quot;:&quot;https:\/\/teja9.kuikr.com\/public\/core\/css\/login-register.css&quot;,&quot;currentCity&quot;:&quot;www&quot;,&quot;currentCityId&quot;:&quot;1&quot;,&quot;currentCat&quot;:&quot;&quot;,&quot;currentSubcat&quot;:&quot;&quot;,&quot;gaPageViewLabel&quot;:&quot;\/search_new?catname=all&amp;keyword=css website template&amp;city=www&quot;,&quot;currentCatId&quot;:&quot;&quot;,&quot;currentSubcatId&quot;:&quot;&quot;,&quot;jkId&quot;:&quot;ade91858-8d06-470b-8788-89b7e6a6b527&quot;},&quot;userObj&quot;:{&quot;authCk&quot;:1,&quot;ck&quot;:&quot;&quot;},&quot;VERTICAL&quot;:&quot;horizontal&quot;,&quot;userInfo&quot;:&quot;{\&quot;email\&quot;:\&quot;\&quot;,\&quot;name\&quot;:\&quot;\&quot;,\&quot;mobile\&quot;:\&quot;\&quot;}&quot;,&quot;idListPresenceStr&quot;:&quot;&quot;,&quot;viewData&quot;:{&quot;from&quot;:1,&quot;count&quot;:24,&quot;ads_present&quot;:true,&quot;to&quot;:24,&quot;total_count&quot;:3807,&quot;template&quot;:&quot;quikrcom\/snb\/sort_options.html&quot;,&quot;keyword&quot;:&quot;css website template&quot;,&quot;city&quot;:&quot;www&quot;,&quot;category&quot;:&quot;All Categories&quot;,&quot;pageRequest&quot;:&quot;REQUEST_SEARCHCAT&quot;,&quot;sort_options&quot;:{&quot;details&quot;:[{&quot;href&quot;:&quot;\/css-website-template+all_categories+qccc0s0002?order=timeAsc&quot;,&quot;display_name&quot;:&quot;Date: Oldest&quot;,&quot;id&quot;:&quot;timeAsc&quot;,&quot;selected&quot;:false,&quot;ga&quot;:&quot;SnB_Search-Right_Nav_Filter-all_Sort_by_Selected&quot;},{&quot;href&quot;:&quot;\/css-website-template+all_categories+qccc0s0002?order=timeDesc&quot;,&quot;display_name&quot;:&quot;Date: Newest&quot;,&quot;id&quot;:&quot;timeDesc&quot;,&quot;selected&quot;:false,&quot;ga&quot;:&quot;SnB_Search-Right_Nav_Filter-all_Sort_by_Selected&quot;}],&quot;selectedSortOption&quot;:&quot;&quot;,&quot;category&quot;:&quot;all&quot;}},&quot;pageRequest&quot;:&quot;REQUEST_SEARCHCAT&quot;,&quot;CDN_DOMAIN&quot;:&quot;https:\/\/teja9.kuikr.com&quot;,&quot;GA_ALERT&quot;:false,&quot;SITE_DOMAIN&quot;:&quot;quikr.com&quot;,&quot;IS_SSL&quot;:&quot;1&quot;,&quot;ASSET_FOLDER_PATH&quot;:&quot;\/public\/core&quot;,&quot;REDIRECT_AFTER_LOGIN&quot;:&quot;https:\/\/www.quikr.com\/MyQuikr&quot;,&quot;FTOKEN&quot;:&quot;be98697a2906a25047667c369620294e&quot;,&quot;FE_URL&quot;:&quot;https:\/\/feservices.quikr.com&quot;,&quot;reCaptcha_site_key&quot;:&quot;6LdYKSwUAAAAAMHsUzoiDZxLWZ9nYrhrHWi1tIsT&quot;,&quot;reCaptcha_Enabled&quot;:&quot;1&quot;}"></div>
+ 
+
+
+
+
+<div id="escrowpopuplowtouchcontainer" class="citypopup
+               escrow_reserved_price_popup" style="top:100px;left:350px;visibility:hidden;position:fixed;z-index:999999;"></div>
+<div id="ntf-rmnd-chat" class="hide"></div>
+<div id="mainchat" class="Chatpanel-InBottom">
+
+
+
+<script>
+    window.SERVICE_HOST = "https://feservices.quikr.com";
+    window.SERVICE_END_POINT = "/v2/header";
+    window.GEOLOCATION_UNIT = "km";
+    window.GEOLOCATION_DISTANCE = "5";
+    window.CDN_URL = "https://teja8.kuikr.com";
+</script>
+<script>
+    window.space = "";
+    window.boomEnd = "";;
+    window.samplingVal =  "";
+    var modules = [];
+    if(space.substring(1,3) == "01" || space.substring(1,3) == "08")
+    {
+        if(space.substring(3,6) == "001" || space.substring(3,6) == "002" )modules=["login_area", "header", "quikrAppBannerOverlay", "menu-icon", "CategorieArea", "container","footer"];
+        if(space.substring(3,6) == "003" || space.substring(3,6) == "010" || space.substring(3,6) == "011" )modules=["login_area","header","main-container","footer"];
+        if(space.substring(3,6) == "004" || space.substring(3,6) == "005")modules=["login_area","header","adList","headerBar","getstate","footer"];
+        if(space.substring(3,6) == "006"){
+            modules=["login_area","header","vapcrumbs","new_vap","callSms-Wapper","ad_details_panel","prevnextbottom","listAdsense","footer"];
+        }
+        if(space.substring(3,6) == "007" )modules=["login_area","header","quikrcontainer","papcontainer","footer_f3"];
+        if(space.substring(3,6) == "008" )modules=["login_area","header","footer"];
+        if(space.substring(3,6) == "009" )modules=["login_area","header","footer"];
+        if(space.substring(3,6) == "000" )modules=["login_area","header","footer"];
+    }
+    window.pageMod = modules ;
+</script>
+
+<script src="https://teja8.kuikr.com/module_assets/js/headerv1-9e6e19f5ddaf8efc317b.js"></script>
+<script src="https://teja9.kuikr.com/public/core/js/bootstrap-min.1524721302.js"></script>
+<script src="https://teja10.kuikr.com/public/core/js/jquery-lazyload.1524721303.js"></script>
+
+    <script src="https://teja10.kuikr.com/public/core/dist/horizontal/horizontal-snb-430355.js"></script>
+
+
+<script type='text/javascript'>
+    //todo ga cleaning
+    // <![CDATA[
+    var pageViewLabel = "/search_new?catname=all&amp;keyword=css website template&amp;city=www" || '/quikr_HP_dual&lang=English';
+    var _gaq = _gaq || [];_gaq.push(['_setAccount','UA-5568615-1']);_gaq.push(['_setDomainName', 'quikr.com']);_gaq.push(['_setCampaignCookieTimeout', 1800000]);_gaq.push(['_trackPageview', pageViewLabel]);(function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();
+    // ]]>
+</script>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M32VP9"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>function GTM(e,t,n,r,i){e[r]=e[r]||[];e[r].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var s=t.getElementsByTagName(n)[0],o=t.createElement(n),u=r!="dataLayer"?"&l="+r:"";o.async=true;o.src="//www.googletagmanager.com/gtm.js?id="+i+u;s.parentNode.insertBefore(o,s)};function GTMCall(){GTM(window,document,"script","dataLayer","GTM-M32VP9");}addOnload(GTMCall);</script>
+
+
+<!--@TODO: Remove this when SIGNIN POPUP IS LAUNCHED-->
+
+        <script type="text/javascript">
+        $( document ).ready(function () {
+            $('#quikrcom-header .login-link').on('click', function(){
+                window.location.href = window.location.protocol + "//" + window.location.host + "/SignIn";
+            });
+        });
+        </script>
+
+
+<script src="https://teja9.kuikr.com/public/mon/qapqdfp/4.0.2/horizontal/index.js" ></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.js"></script>
+
+<!---->
+<!--    <script async type="text/javascript" src="https://teja10.kuikr.com/js/bakerst-min.1511326887.js"></script>-->
+<!-- -->
+<script async type="text/javascript" src="https://teja10.kuikr.com/public/core/js/bakerst-min.1547532748.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"26af5ec8d1","applicationID":"71122393","transactionName":"bgMEbENUWhZXURdcWVdJJU1CQVsIGUEGVERaDjlZXVk=","queueTime":0,"applicationTime":353,"atts":"QkQHGgtOSRg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+

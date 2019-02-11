@@ -1,0 +1,23 @@
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSExceptions\bin\Debug\TWRMSExceptions.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSExceptions\bin\Debug\TWRMSExceptions.pdb
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSExceptions\obj\Debug\TWRMSExceptions.csproj.CoreCompileInputs.cache
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSExceptions\obj\Debug\TWRMSExceptions.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSExceptions\obj\Debug\TWRMSExceptions.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSExceptions\bin\Debug\TWRMSExceptions.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSExceptions\bin\Debug\TWRMSExceptions.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.csprojAssemblyReference.cache
+C:\Users\sukamini\Desktop\TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.csproj.CoreCompileInputs.cache
+C:\Users\sukamini\Desktop\TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\bin\Debug\TWRMSExceptions.dll
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\bin\Debug\TWRMSExceptions.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.csprojAssemblyReference.cache
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.csproj.CoreCompileInputs.cache
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.dll
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\bin\Debug\TWRMSExceptions.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\bin\Debug\TWRMSExceptions.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.csprojAssemblyReference.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.csproj.CoreCompileInputs.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSExceptions\obj\Debug\TWRMSExceptions.pdb

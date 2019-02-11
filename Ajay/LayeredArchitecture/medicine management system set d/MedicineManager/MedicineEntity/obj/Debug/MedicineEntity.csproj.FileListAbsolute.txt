@@ -1,0 +1,6 @@
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineEntity\bin\Debug\MedicineEntity.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineEntity\bin\Debug\MedicineEntity.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineEntity\obj\Debug\MedicineEntity.csproj.CoreCompileInputs.cache
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineEntity\obj\Debug\MedicineEntity.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineEntity\obj\Debug\MedicineEntity.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineEntity\obj\Debug\MedicineEntity.csprojAssemblyReference.cache

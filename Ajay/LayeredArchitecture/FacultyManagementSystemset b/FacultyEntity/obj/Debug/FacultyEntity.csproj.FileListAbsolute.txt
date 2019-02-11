@@ -1,0 +1,12 @@
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\bin\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\bin\Debug\FacultyEntity.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.csprojAssemblyReference.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.csproj.CoreCompileInputs.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyEntity\bin\Debug\FacultyEntity.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyEntity\bin\Debug\FacultyEntity.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyEntity\obj\Debug\FacultyEntity.csprojAssemblyReference.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyEntity\obj\Debug\FacultyEntity.csproj.CoreCompileInputs.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyEntity\obj\Debug\FacultyEntity.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyEntity\obj\Debug\FacultyEntity.pdb

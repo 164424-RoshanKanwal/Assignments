@@ -1,0 +1,6 @@
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelEntity\bin\Debug\HotelEntity.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelEntity\bin\Debug\HotelEntity.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelEntity\obj\Debug\HotelEntity.csprojAssemblyReference.cache
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelEntity\obj\Debug\HotelEntity.csproj.CoreCompileInputs.cache
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelEntity\obj\Debug\HotelEntity.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelEntity\obj\Debug\HotelEntity.pdb

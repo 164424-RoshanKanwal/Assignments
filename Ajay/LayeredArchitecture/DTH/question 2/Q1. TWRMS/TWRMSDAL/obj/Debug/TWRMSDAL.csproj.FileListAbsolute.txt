@@ -1,0 +1,48 @@
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\bin\Debug\TWRMSDAL.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\bin\Debug\TWRMSDAL.pdb
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\bin\Debug\TWRMSEntities.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\bin\Debug\TWRMSExceptions.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\bin\Debug\TWRMSEntities.pdb
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\bin\Debug\TWRMSExceptions.pdb
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\obj\Debug\TWRMSDAL.csprojAssemblyReference.cache
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CoreCompileInputs.cache
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CopyComplete
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\obj\Debug\TWRMSDAL.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSDAL\obj\Debug\TWRMSDAL.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\bin\Debug\TWRMSDAL.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\bin\Debug\TWRMSDAL.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\bin\Debug\TWRMSEntities.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\bin\Debug\TWRMSExceptions.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\bin\Debug\TWRMSEntities.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\bin\Debug\TWRMSExceptions.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csprojAssemblyReference.cache
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CoreCompileInputs.cache
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CopyComplete
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csprojAssemblyReference.cache
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CoreCompileInputs.cache
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.dll
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSDAL.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSDAL.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSEntities.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSExceptions.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSEntities.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSExceptions.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csprojAssemblyReference.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CoreCompileInputs.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CopyComplete
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.pdb
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSDAL.dll
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSDAL.pdb
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSEntities.dll
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSExceptions.dll
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSEntities.pdb
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\bin\Debug\TWRMSExceptions.pdb
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csprojAssemblyReference.cache
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CoreCompileInputs.cache
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.csproj.CopyComplete
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.dll
+C:\Users\kbuddava\Desktop\question 2\Q1. TWRMS\TWRMSDAL\obj\Debug\TWRMSDAL.pdb

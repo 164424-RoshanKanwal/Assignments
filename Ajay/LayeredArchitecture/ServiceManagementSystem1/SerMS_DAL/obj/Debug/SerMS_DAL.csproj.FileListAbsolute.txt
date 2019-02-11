@@ -1,0 +1,11 @@
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\bin\Debug\SerMS_DAL.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\bin\Debug\SerMS_DAL.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\bin\Debug\SerMS_Entities.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\bin\Debug\SerMS_Exception.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\bin\Debug\SerMS_Entities.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\bin\Debug\SerMS_Exception.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\obj\Debug\SerMS_DAL.csprojAssemblyReference.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\obj\Debug\SerMS_DAL.csproj.CoreCompileInputs.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\obj\Debug\SerMS_DAL.csproj.CopyComplete
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\obj\Debug\SerMS_DAL.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_DAL\obj\Debug\SerMS_DAL.pdb

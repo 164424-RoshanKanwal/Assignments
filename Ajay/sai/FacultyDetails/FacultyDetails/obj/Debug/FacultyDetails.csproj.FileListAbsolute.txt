@@ -1,0 +1,64 @@
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe.config
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csprojAssemblyReference.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CoreCompileInputs.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CopyComplete
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.exe
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe.config
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csprojAssemblyReference.cache
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CoreCompileInputs.cache
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CopyComplete
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.exe
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.pdb
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe.config
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.pdb
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.dll
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.dll
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.dll
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.dll
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.pdb
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.pdb
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.pdb
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.pdb
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csprojAssemblyReference.cache
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CoreCompileInputs.cache
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CopyComplete
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.exe
+\\In-blr-cmdp01\reminst\Ashish\patient\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe.config
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.exe
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FacultyDetails.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_BAL.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Entities.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_Exceptions.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\bin\Debug\FMS_DAL.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csprojAssemblyReference.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CoreCompileInputs.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.csproj.CopyComplete
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.exe
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FacultyDetails\obj\Debug\FacultyDetails.pdb

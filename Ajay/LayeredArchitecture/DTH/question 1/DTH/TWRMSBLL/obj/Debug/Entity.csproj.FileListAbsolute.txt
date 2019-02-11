@@ -1,0 +1,39 @@
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSBLL.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSBLL.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSDAL.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSEntities.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSExceptions.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSDAL.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSEntities.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSExceptions.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\obj\Debug\Entity.csproj.CopyComplete
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\obj\Debug\TWRMSBLL.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSBLL\obj\Debug\TWRMSBLL.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSBLL.dll
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSBLL.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSDAL.dll
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSEntities.dll
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSExceptions.dll
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSDAL.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSEntities.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\bin\Debug\TWRMSExceptions.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\obj\Debug\Entity.csproj.CopyComplete
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\obj\Debug\TWRMSBLL.dll
+C:\Users\ryadav26\Desktop\Retest MPT\question 1\Q1. TWRMS\TWRMSBLL\obj\Debug\TWRMSBLL.pdb
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSBLL.dll
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSBLL.pdb
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSDAL.dll
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSEntities.dll
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSExceptions.dll
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSDAL.pdb
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSEntities.pdb
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\bin\Debug\TWRMSExceptions.pdb
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\obj\Debug\Entity.csprojAssemblyReference.cache
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\obj\Debug\Entity.csproj.CopyComplete
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\obj\Debug\TWRMSBLL.dll
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSBLL\obj\Debug\TWRMSBLL.pdb

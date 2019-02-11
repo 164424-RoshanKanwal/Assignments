@@ -1,0 +1,7 @@
+C:\Users\rv17\source\repos\LQ9Dictionary\LQ9Dictionary\bin\Debug\LQ9Dictionary.exe.config
+C:\Users\rv17\source\repos\LQ9Dictionary\LQ9Dictionary\bin\Debug\LQ9Dictionary.exe
+C:\Users\rv17\source\repos\LQ9Dictionary\LQ9Dictionary\bin\Debug\LQ9Dictionary.pdb
+C:\Users\rv17\source\repos\LQ9Dictionary\LQ9Dictionary\obj\Debug\LQ9Dictionary.csprojAssemblyReference.cache
+C:\Users\rv17\source\repos\LQ9Dictionary\LQ9Dictionary\obj\Debug\LQ9Dictionary.csproj.CoreCompileInputs.cache
+C:\Users\rv17\source\repos\LQ9Dictionary\LQ9Dictionary\obj\Debug\LQ9Dictionary.exe
+C:\Users\rv17\source\repos\LQ9Dictionary\LQ9Dictionary\obj\Debug\LQ9Dictionary.pdb

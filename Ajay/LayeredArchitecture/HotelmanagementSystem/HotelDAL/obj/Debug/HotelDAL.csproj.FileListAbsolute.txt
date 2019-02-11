@@ -1,0 +1,11 @@
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\bin\Debug\HotelDAL.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\bin\Debug\HotelDAL.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\bin\Debug\HotelEntity.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\bin\Debug\HotelException.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\bin\Debug\HotelEntity.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\bin\Debug\HotelException.pdb
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\obj\Debug\HotelDAL.csprojAssemblyReference.cache
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\obj\Debug\HotelDAL.csproj.CoreCompileInputs.cache
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\obj\Debug\HotelDAL.csproj.CopyComplete
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\obj\Debug\HotelDAL.dll
+C:\Users\yyamini\Desktop\hotelmanagementsystem\HotelmanagementSystem\HotelDAL\obj\Debug\HotelDAL.pdb

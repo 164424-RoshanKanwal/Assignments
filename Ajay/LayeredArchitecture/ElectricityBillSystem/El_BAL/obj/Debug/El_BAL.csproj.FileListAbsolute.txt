@@ -1,0 +1,13 @@
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_BAL.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_BAL.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_DAL.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_Entities.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_Exceptions.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_DAL.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_Entities.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\bin\Debug\El_Exceptions.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\obj\Debug\El_BAL.csprojAssemblyReference.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\obj\Debug\El_BAL.csproj.CoreCompileInputs.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\obj\Debug\El_BAL.csproj.CopyComplete
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\obj\Debug\El_BAL.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_BAL\obj\Debug\El_BAL.pdb

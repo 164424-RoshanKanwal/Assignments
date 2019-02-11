@@ -1,0 +1,30 @@
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.DelegateEvents01\bin\Debug\DelegateEvents01.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.DelegateEvents01\bin\Debug\DelegateEvents01.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.DelegateEvents01\bin\Debug\DelegateEvents01.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.DelegateEvents01\obj\Debug\DelegateEvents01.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day3\IGATE.Demos.DelegateEvents01\obj\Debug\DelegateEvents01.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.pdb
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe.config
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.exe
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.pdb
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.pdb
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.csprojResolveAssemblyReference.cache
+C:\Users\mahethot\Desktop\Mahi\M2\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe.config
+C:\Users\mahethot\Desktop\Mahi\M2\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe
+C:\Users\mahethot\Desktop\Mahi\M2\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.pdb
+C:\Users\mahethot\Desktop\Mahi\M2\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.csproj.CoreCompileInputs.cache
+C:\Users\mahethot\Desktop\Mahi\M2\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.exe
+C:\Users\mahethot\Desktop\Mahi\M2\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.pdb
+C:\Users\mahethot\Desktop\Mahi\M2\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.csprojAssemblyReference.cache
+\\in-blr-cmdp01\REMINST\Ajay\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe.config
+\\in-blr-cmdp01\REMINST\Ajay\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.exe
+\\in-blr-cmdp01\REMINST\Ajay\Day3\DelegateEvents01\bin\Debug\DelegateEvents01.pdb
+\\in-blr-cmdp01\REMINST\Ajay\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.csprojAssemblyReference.cache
+\\in-blr-cmdp01\REMINST\Ajay\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.csproj.CoreCompileInputs.cache
+\\in-blr-cmdp01\REMINST\Ajay\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.exe
+\\in-blr-cmdp01\REMINST\Ajay\Day3\DelegateEvents01\obj\Debug\DelegateEvents01.pdb

@@ -1,0 +1,7 @@
+C:\Users\hsomarou\Desktop\Hema_168290\Customer\Customer\bin\Debug\Customer.exe.config
+C:\Users\hsomarou\Desktop\Hema_168290\Customer\Customer\bin\Debug\Customer.exe
+C:\Users\hsomarou\Desktop\Hema_168290\Customer\Customer\bin\Debug\Customer.pdb
+C:\Users\hsomarou\Desktop\Hema_168290\Customer\Customer\obj\Debug\Customer.csprojAssemblyReference.cache
+C:\Users\hsomarou\Desktop\Hema_168290\Customer\Customer\obj\Debug\Customer.csproj.CoreCompileInputs.cache
+C:\Users\hsomarou\Desktop\Hema_168290\Customer\Customer\obj\Debug\Customer.exe
+C:\Users\hsomarou\Desktop\Hema_168290\Customer\Customer\obj\Debug\Customer.pdb

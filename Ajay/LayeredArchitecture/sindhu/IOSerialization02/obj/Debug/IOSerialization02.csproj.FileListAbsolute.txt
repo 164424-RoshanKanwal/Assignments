@@ -1,0 +1,24 @@
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day4\IGATE.Demos.IOSerialization02\bin\Debug\IOSerialization02.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day4\IGATE.Demos.IOSerialization02\bin\Debug\IOSerialization02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day4\IGATE.Demos.IOSerialization02\bin\Debug\IOSerialization02.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day4\IGATE.Demos.IOSerialization02\obj\Debug\IOSerialization02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSDemosBackUp\Day4\IGATE.Demos.IOSerialization02\obj\Debug\IOSerialization02.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day4\IOSerialization02\bin\Debug\IOSerialization02.exe.config
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day4\IOSerialization02\obj\Debug\IOSerialization02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day4\IOSerialization02\obj\Debug\IOSerialization02.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day4\IOSerialization02\bin\Debug\IOSerialization02.exe
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day4\IOSerialization02\bin\Debug\IOSerialization02.pdb
+D:\Nachiket\Study Materials\Module 2\Demos\CSharp Demos\Day4\IOSerialization02\obj\Debug\IOSerialization02.csprojResolveAssemblyReference.cache
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day4\IOSerialization02\bin\Debug\IOSerialization02.exe.config
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day4\IOSerialization02\bin\Debug\IOSerialization02.exe
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day4\IOSerialization02\bin\Debug\IOSerialization02.pdb
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day4\IOSerialization02\obj\Debug\IOSerialization02.csprojResolveAssemblyReference.cache
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day4\IOSerialization02\obj\Debug\IOSerialization02.exe
+D:\Sangeetha\ELTP\Module2\CG\C#\Demos\CSharp Demos\Day4\IOSerialization02\obj\Debug\IOSerialization02.pdb
+C:\Users\susaisin\Documents\M2\Day4\IOSerialization02\bin\Debug\IOSerialization02.exe.config
+C:\Users\susaisin\Documents\M2\Day4\IOSerialization02\bin\Debug\IOSerialization02.exe
+C:\Users\susaisin\Documents\M2\Day4\IOSerialization02\bin\Debug\IOSerialization02.pdb
+C:\Users\susaisin\Documents\M2\Day4\IOSerialization02\obj\Debug\IOSerialization02.csprojAssemblyReference.cache
+C:\Users\susaisin\Documents\M2\Day4\IOSerialization02\obj\Debug\IOSerialization02.csproj.CoreCompileInputs.cache
+C:\Users\susaisin\Documents\M2\Day4\IOSerialization02\obj\Debug\IOSerialization02.exe
+C:\Users\susaisin\Documents\M2\Day4\IOSerialization02\obj\Debug\IOSerialization02.pdb

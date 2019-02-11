@@ -1,0 +1,6 @@
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Entities\bin\Debug\AMS_Entities.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Entities\bin\Debug\AMS_Entities.pdb
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Entities\obj\Debug\AMS_Entities.csprojAssemblyReference.cache
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Entities\obj\Debug\AMS_Entities.csproj.CoreCompileInputs.cache
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Entities\obj\Debug\AMS_Entities.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Entities\obj\Debug\AMS_Entities.pdb

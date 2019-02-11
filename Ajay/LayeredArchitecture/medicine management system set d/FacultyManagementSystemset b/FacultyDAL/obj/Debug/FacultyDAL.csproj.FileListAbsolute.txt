@@ -1,0 +1,11 @@
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyDAL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyDAL.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyException.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyEntity.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyException.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.csprojAssemblyReference.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.csproj.CoreCompileInputs.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.csproj.CopyComplete
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.pdb

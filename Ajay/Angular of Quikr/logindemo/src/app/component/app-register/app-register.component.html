@@ -1,0 +1,54 @@
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+	<div class="column">
+        <div class="span5">
+    		<div class="" id="loginModal">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3>Have an Account?</h3>
+              </div>
+              <div class="modal-body">
+                <div class="well">
+                  <ul class="nav nav-tabs">
+                     
+                    <li><a routerLink="/login"  routerLinkActive="active" >Login</a></li>
+                    <li class="active"><a routerLink="/register"  routerLinkActive="active" >Create Account</a></li>
+                  </ul>
+                  
+                      <form id="tab"   >
+                         
+                        <label>Username</label>
+                        <input type="text" name="name" placeholder="Enter Username" [(ngModel)]="userAccount.name" class="input-xlarge" required>
+                        <label>Mobile number</label>
+                        <input type="text" name="phoneNo" placeholder="Enter MobileNumber" value="" [(ngModel)]="userAccount.phoneNo" class="input-xlarge"  title="Phone number with 7-9 and remaing 9 digit with 0-9" required>
+                        
+                        <label>Email</label>
+                        <input type="text" name="emailId" placeholder="Enter you Email" value="" class="input-xlarge" pattern="[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~.-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*"  [(ngModel)]="userAccount.emailId" required>
+                       
+                        <label>Password</label>
+                     <!--    <input type="password" placeholder="Password" value="" class="input-xlarge" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" [(ngModel)]="userAccount.password" required> -->
+                     <input type="password" name="password" placeholder="Password" value="" class="input-xlarge" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" onchange="this.setCustomValidity(this.validity.patternMismatch ? 'Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters' : ''); if(this.checkValidity()) form.password_two.pattern = this.value;" [(ngModel)]="userAccount.password" required>
+                        <label>confirm Password</label>
+                        <input type="password" placeholder="Verify Password" value="" class="input-xlarge"  required>
+                       <label></label>
+                        <input type="submit" class="btn btn-primary" value="register" name="register">
+                     
+                        <!-- <div>
+                            <button class="btn btn-primary">
+                            Register
+                            </button>
+                        </div> -->
+                      </form>
+                  
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+	</div>
+
+

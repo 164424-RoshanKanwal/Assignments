@@ -1,0 +1,33 @@
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\bin\Debug\FMS_DAL.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\bin\Debug\FMS_DAL.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\bin\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\bin\Debug\FMS_Exceptions.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\bin\Debug\FMS_Entities.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\bin\Debug\FMS_Exceptions.pdb
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csprojAssemblyReference.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csproj.CoreCompileInputs.cache
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csproj.CopyComplete
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.dll
+C:\Users\anjitv\Desktop\module2 exam\q1\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\bin\Debug\FMS_DAL.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\bin\Debug\FMS_DAL.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\bin\Debug\FMS_Entities.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\bin\Debug\FMS_Exceptions.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\bin\Debug\FMS_Entities.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\bin\Debug\FMS_Exceptions.pdb
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csprojAssemblyReference.cache
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csproj.CoreCompileInputs.cache
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csproj.CopyComplete
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.dll
+C:\Users\anjitv\Desktop\copy\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\bin\Debug\FMS_DAL.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\bin\Debug\FMS_DAL.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\bin\Debug\FMS_Entities.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\bin\Debug\FMS_Exceptions.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\bin\Debug\FMS_Entities.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\bin\Debug\FMS_Exceptions.pdb
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csprojAssemblyReference.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csproj.CoreCompileInputs.cache
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.csproj.CopyComplete
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.dll
+C:\Users\mvandana\Desktop\SET D\FacultyDetails\FMS_DAL\obj\Debug\FMS_DAL.pdb

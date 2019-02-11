@@ -1,0 +1,14 @@
+Dockerfile Commands
+========================
+
+ADD
+CMD ==> important
+ENTRYPOINT
+ENV 
+EXPOSE ==> important 
+FROM ==> very important 
+MAINTAINER
+RUN  ==> very important 
+USER
+VOLUME
+WORKDIR

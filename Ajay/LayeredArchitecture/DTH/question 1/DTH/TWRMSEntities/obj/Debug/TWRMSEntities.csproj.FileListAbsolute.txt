@@ -1,0 +1,30 @@
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSEntities\bin\Debug\TWRMSEntities.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSEntities\bin\Debug\TWRMSEntities.pdb
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSEntities\obj\Debug\TWRMSEntities.csprojAssemblyReference.cache
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSEntities\obj\Debug\TWRMSEntities.csproj.CoreCompileInputs.cache
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSEntities\obj\Debug\TWRMSEntities.dll
+C:\Users\sukamini\source\repos\TWRMSEntities\TWRMSEntities\obj\Debug\TWRMSEntities.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSEntities\bin\Debug\TWRMSEntities.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSEntities\bin\Debug\TWRMSEntities.pdb
+C:\Users\sukamini\Desktop\TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.csprojAssemblyReference.cache
+C:\Users\sukamini\Desktop\TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.csproj.CoreCompileInputs.cache
+C:\Users\sukamini\Desktop\TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.dll
+C:\Users\sukamini\Desktop\TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\bin\Debug\TWRMSEntities.dll
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\bin\Debug\TWRMSEntities.pdb
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.csprojAssemblyReference.cache
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.csproj.CoreCompileInputs.cache
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.dll
+C:\Users\ryadav26\Desktop\Retest MPT\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\bin\Debug\TWRMSEntities.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\bin\Debug\TWRMSEntities.pdb
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.csprojAssemblyReference.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.csproj.CoreCompileInputs.cache
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.dll
+C:\Users\kbuddava\Documents\My Received Files\159809 - Surya Mohan Reddy Kamini\Q1. TWRMS\TWRMSEntities\obj\Debug\TWRMSEntities.pdb
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSEntities\bin\Debug\TWRMSEntities.dll
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSEntities\bin\Debug\TWRMSEntities.pdb
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSEntities\obj\Debug\TWRMSEntities.csprojAssemblyReference.cache
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSEntities\obj\Debug\TWRMSEntities.csproj.CoreCompileInputs.cache
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSEntities\obj\Debug\TWRMSEntities.dll
+C:\Users\spolkamp\Desktop\Retest MPT\question 1\DTH\TWRMSEntities\obj\Debug\TWRMSEntities.pdb

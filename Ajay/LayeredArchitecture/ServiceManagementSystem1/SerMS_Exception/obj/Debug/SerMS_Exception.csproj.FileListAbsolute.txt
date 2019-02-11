@@ -1,0 +1,6 @@
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Exception\bin\Debug\SerMS_Exception.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Exception\bin\Debug\SerMS_Exception.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Exception\obj\Debug\SerMS_Exception.csprojAssemblyReference.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Exception\obj\Debug\SerMS_Exception.csproj.CoreCompileInputs.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Exception\obj\Debug\SerMS_Exception.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\SerMS_Exception\obj\Debug\SerMS_Exception.pdb

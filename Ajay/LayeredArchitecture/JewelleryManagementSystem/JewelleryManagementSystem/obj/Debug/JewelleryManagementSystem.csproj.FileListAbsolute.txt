@@ -1,0 +1,16 @@
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JewelleryManagementSystem.exe.config
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JewelleryManagementSystem.exe
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JewelleryManagementSystem.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_BAl.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_Entities.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_Exceptions.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_DAL.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_BAl.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_Entities.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_Exceptions.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\bin\Debug\JMS_DAL.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\obj\Debug\JewelleryManagementSystem.csprojAssemblyReference.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\obj\Debug\JewelleryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\obj\Debug\JewelleryManagementSystem.csproj.CopyComplete
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\obj\Debug\JewelleryManagementSystem.exe
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JewelleryManagementSystem\obj\Debug\JewelleryManagementSystem.pdb

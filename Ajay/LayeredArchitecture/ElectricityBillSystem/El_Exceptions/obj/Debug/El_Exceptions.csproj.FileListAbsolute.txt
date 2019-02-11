@@ -1,0 +1,6 @@
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Exceptions\bin\Debug\El_Exceptions.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Exceptions\bin\Debug\El_Exceptions.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Exceptions\obj\Debug\El_Exceptions.csprojAssemblyReference.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Exceptions\obj\Debug\El_Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Exceptions\obj\Debug\El_Exceptions.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_Exceptions\obj\Debug\El_Exceptions.pdb

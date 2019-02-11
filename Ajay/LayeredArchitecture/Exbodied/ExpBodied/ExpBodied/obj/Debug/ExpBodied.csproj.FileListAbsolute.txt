@@ -1,0 +1,7 @@
+C:\Users\hsomarou\Desktop\set-c\ExpBodied\ExpBodied\bin\Debug\ExpBodied.exe.config
+C:\Users\hsomarou\Desktop\set-c\ExpBodied\ExpBodied\bin\Debug\ExpBodied.exe
+C:\Users\hsomarou\Desktop\set-c\ExpBodied\ExpBodied\bin\Debug\ExpBodied.pdb
+C:\Users\hsomarou\Desktop\set-c\ExpBodied\ExpBodied\obj\Debug\ExpBodied.csprojAssemblyReference.cache
+C:\Users\hsomarou\Desktop\set-c\ExpBodied\ExpBodied\obj\Debug\ExpBodied.csproj.CoreCompileInputs.cache
+C:\Users\hsomarou\Desktop\set-c\ExpBodied\ExpBodied\obj\Debug\ExpBodied.exe
+C:\Users\hsomarou\Desktop\set-c\ExpBodied\ExpBodied\obj\Debug\ExpBodied.pdb

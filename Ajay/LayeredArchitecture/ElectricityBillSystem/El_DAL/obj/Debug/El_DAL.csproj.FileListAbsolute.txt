@@ -1,0 +1,11 @@
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\bin\Debug\El_DAL.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\bin\Debug\El_DAL.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\bin\Debug\El_Entities.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\bin\Debug\El_Exceptions.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\bin\Debug\El_Entities.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\bin\Debug\El_Exceptions.pdb
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\obj\Debug\El_DAL.csprojAssemblyReference.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\obj\Debug\El_DAL.csproj.CoreCompileInputs.cache
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\obj\Debug\El_DAL.csproj.CopyComplete
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\obj\Debug\El_DAL.dll
+C:\Users\sgurbuxa\source\repos\ElectricityBillSystem\El_DAL\obj\Debug\El_DAL.pdb

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Training_14Nov18_MumbaiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="MedicineDetails_032">
+    <Key>
+      <PropertyRef Name="MedicineID" />
+    </Key>
+    <Property Name="MedicineID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MedicineName" Type="nvarchar" MaxLength="50" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+    <Property Name="BatchNo" Type="int" />
+    <Property Name="Manufacturer" Type="nvarchar" MaxLength="50" />
+    <Property Name="ManufactureDate" Type="date" />
+    <Property Name="ExpiryDate" Type="date" />
+    <Property Name="Price" Type="float" />
+  </EntityType>
+  <EntityContainer Name="Training_14Nov18_MumbaiModelStoreContainer">
+    <EntitySet Name="MedicineDetails_032" EntityType="Self.MedicineDetails_032" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

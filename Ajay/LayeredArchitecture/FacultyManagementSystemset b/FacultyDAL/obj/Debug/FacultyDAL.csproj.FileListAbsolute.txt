@@ -1,0 +1,21 @@
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyDAL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyDAL.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyException.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyEntity.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\bin\Debug\FacultyException.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.csprojAssemblyReference.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.csproj.CoreCompileInputs.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.csproj.CopyComplete
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyDAL\obj\Debug\FacultyDAL.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\bin\Debug\FacultyDAL.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\bin\Debug\FacultyEntity.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\bin\Debug\FacultyException.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\bin\Debug\FacultyEntity.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\bin\Debug\FacultyException.pdb
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\obj\Debug\FacultyDAL.csprojAssemblyReference.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\obj\Debug\FacultyDAL.csproj.CoreCompileInputs.cache
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\obj\Debug\FacultyDAL.csproj.CopyComplete
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\obj\Debug\FacultyDAL.dll
+\\10.51.92.154\Hostnames\DilipkumarTrainee12dec\Emerging Technologies Modules\FacultyManagementSystemset b\FacultyDAL\obj\Debug\FacultyDAL.pdb

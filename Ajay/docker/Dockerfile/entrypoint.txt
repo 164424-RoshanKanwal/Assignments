@@ -1,0 +1,7 @@
+FROM busybox
+MAINTAINER alodha
+ENTRYPOINT [“/bin/cat”]
+CMD [“/etc/passwd”]
+
+
+in this example the CMD option will act as variable for the entrypoint 

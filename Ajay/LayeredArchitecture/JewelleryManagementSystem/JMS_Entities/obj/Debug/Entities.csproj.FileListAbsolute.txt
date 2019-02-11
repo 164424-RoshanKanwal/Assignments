@@ -1,0 +1,6 @@
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Entities\bin\Debug\JMS_Entities.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Entities\bin\Debug\JMS_Entities.pdb
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Entities\obj\Debug\JMS_Entities.dll
+C:\Users\kavijayk\source\repos\JewelleryManagementSystem\JMS_Entities\obj\Debug\JMS_Entities.pdb

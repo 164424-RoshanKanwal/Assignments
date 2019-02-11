@@ -1,0 +1,13 @@
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentBLL.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentBLL.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentDAL.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentEntity.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentException.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentDAL.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentEntity.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\bin\Debug\StudentException.pdb
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\obj\Debug\StudentBLL.csprojAssemblyReference.cache
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\obj\Debug\StudentBLL.csproj.CoreCompileInputs.cache
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\obj\Debug\StudentBLL.csproj.CopyComplete
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\obj\Debug\StudentBLL.dll
+C:\Users\pjnanesw\Desktop\M2\StudentManagementSystem\StudentBLL\obj\Debug\StudentBLL.pdb

@@ -1,0 +1,11 @@
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\bin\Debug\AMS_DAL.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\bin\Debug\AMS_DAL.pdb
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\bin\Debug\AMS_Entities.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\bin\Debug\AMS_Exceptions.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\bin\Debug\AMS_Entities.pdb
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\bin\Debug\AMS_Exceptions.pdb
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\obj\Debug\AMS_DAL.csprojAssemblyReference.cache
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\obj\Debug\AMS_DAL.csproj.CoreCompileInputs.cache
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\obj\Debug\AMS_DAL.csproj.CopyComplete
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\obj\Debug\AMS_DAL.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_DAL\obj\Debug\AMS_DAL.pdb

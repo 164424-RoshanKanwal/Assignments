@@ -1,0 +1,11 @@
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\bin\Debug\MedicineDAL.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\bin\Debug\MedicineDAL.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\bin\Debug\MedicineEntity.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\bin\Debug\MedicineException.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\bin\Debug\MedicineEntity.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\bin\Debug\MedicineException.pdb
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\obj\Debug\MedicineDAL.csprojAssemblyReference.cache
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\obj\Debug\MedicineDAL.csproj.CoreCompileInputs.cache
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\obj\Debug\MedicineDAL.csproj.CopyComplete
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\obj\Debug\MedicineDAL.dll
+C:\Users\pjnanesw\Desktop\M3A\MedicineManager\MedicineDAL\obj\Debug\MedicineDAL.pdb

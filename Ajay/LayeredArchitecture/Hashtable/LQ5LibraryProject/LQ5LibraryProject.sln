@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LQ5LibraryProject", "LQ5LibraryProject\LQ5LibraryProject.csproj", "{9186A318-6F0E-4339-8AA7-5F612C6A0C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LQ5ConsoleAppBankAccount", "LQ5ConsoleAppBankAccount\LQ5ConsoleAppBankAccount.csproj", "{2DAB93EB-D564-44FF-8D46-5E3611905DAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9186A318-6F0E-4339-8AA7-5F612C6A0C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9186A318-6F0E-4339-8AA7-5F612C6A0C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9186A318-6F0E-4339-8AA7-5F612C6A0C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9186A318-6F0E-4339-8AA7-5F612C6A0C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DAB93EB-D564-44FF-8D46-5E3611905DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DAB93EB-D564-44FF-8D46-5E3611905DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DAB93EB-D564-44FF-8D46-5E3611905DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DAB93EB-D564-44FF-8D46-5E3611905DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6092F0BE-58A6-4379-A0BB-6A8F90CA8F05}
+	EndGlobalSection
+EndGlobal

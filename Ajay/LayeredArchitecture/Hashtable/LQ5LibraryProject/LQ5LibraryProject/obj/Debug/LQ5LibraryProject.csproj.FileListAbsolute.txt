@@ -1,0 +1,6 @@
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5LibraryProject\bin\Debug\LQ5LibraryProject.dll
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5LibraryProject\bin\Debug\LQ5LibraryProject.pdb
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5LibraryProject\obj\Debug\LQ5LibraryProject.csprojAssemblyReference.cache
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5LibraryProject\obj\Debug\LQ5LibraryProject.csproj.CoreCompileInputs.cache
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5LibraryProject\obj\Debug\LQ5LibraryProject.dll
+C:\Users\rv17\source\repos\LQ5LibraryProject\LQ5LibraryProject\obj\Debug\LQ5LibraryProject.pdb

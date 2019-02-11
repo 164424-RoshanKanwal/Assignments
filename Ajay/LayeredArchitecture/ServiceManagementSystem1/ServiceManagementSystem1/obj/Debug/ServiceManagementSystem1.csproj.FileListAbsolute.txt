@@ -1,0 +1,16 @@
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\ServiceManagementSystem1.exe.config
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\ServiceManagementSystem1.exe
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\ServiceManagementSystem1.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_BAL.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_Entities.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_Exception.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_DAL.dll
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_BAL.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_Entities.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_Exception.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\bin\Debug\SerMS_DAL.pdb
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\obj\Debug\ServiceManagementSystem1.csprojAssemblyReference.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\obj\Debug\ServiceManagementSystem1.csproj.CoreCompileInputs.cache
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\obj\Debug\ServiceManagementSystem1.csproj.CopyComplete
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\obj\Debug\ServiceManagementSystem1.exe
+C:\Users\susaisin\source\repos\ServiceManagementSystem1\ServiceManagementSystem1\obj\Debug\ServiceManagementSystem1.pdb

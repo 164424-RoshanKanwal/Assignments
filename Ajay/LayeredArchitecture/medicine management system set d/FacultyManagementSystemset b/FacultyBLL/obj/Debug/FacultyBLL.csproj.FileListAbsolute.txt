@@ -1,0 +1,13 @@
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyBLL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyBLL.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyDAL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyException.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyDAL.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyEntity.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\bin\Debug\FacultyException.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.csprojAssemblyReference.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.csproj.CoreCompileInputs.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.csproj.CopyComplete
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyBLL\obj\Debug\FacultyBLL.pdb

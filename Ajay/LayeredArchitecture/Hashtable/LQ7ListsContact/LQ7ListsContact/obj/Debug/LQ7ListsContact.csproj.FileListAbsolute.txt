@@ -1,0 +1,7 @@
+C:\Users\rv17\source\repos\LQ7ListsContact\LQ7ListsContact\bin\Debug\LQ7ListsContact.exe.config
+C:\Users\rv17\source\repos\LQ7ListsContact\LQ7ListsContact\bin\Debug\LQ7ListsContact.exe
+C:\Users\rv17\source\repos\LQ7ListsContact\LQ7ListsContact\bin\Debug\LQ7ListsContact.pdb
+C:\Users\rv17\source\repos\LQ7ListsContact\LQ7ListsContact\obj\Debug\LQ7ListsContact.csprojAssemblyReference.cache
+C:\Users\rv17\source\repos\LQ7ListsContact\LQ7ListsContact\obj\Debug\LQ7ListsContact.csproj.CoreCompileInputs.cache
+C:\Users\rv17\source\repos\LQ7ListsContact\LQ7ListsContact\obj\Debug\LQ7ListsContact.exe
+C:\Users\rv17\source\repos\LQ7ListsContact\LQ7ListsContact\obj\Debug\LQ7ListsContact.pdb

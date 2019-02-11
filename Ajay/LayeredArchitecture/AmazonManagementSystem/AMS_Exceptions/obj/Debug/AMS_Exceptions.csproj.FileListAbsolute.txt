@@ -1,0 +1,6 @@
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Exceptions\bin\Debug\AMS_Exceptions.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Exceptions\bin\Debug\AMS_Exceptions.pdb
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Exceptions\obj\Debug\AMS_Exceptions.csprojAssemblyReference.cache
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Exceptions\obj\Debug\AMS_Exceptions.csproj.CoreCompileInputs.cache
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Exceptions\obj\Debug\AMS_Exceptions.dll
+C:\kavijayk\C#\AmazonManagementSystem\AMS_Exceptions\obj\Debug\AMS_Exceptions.pdb

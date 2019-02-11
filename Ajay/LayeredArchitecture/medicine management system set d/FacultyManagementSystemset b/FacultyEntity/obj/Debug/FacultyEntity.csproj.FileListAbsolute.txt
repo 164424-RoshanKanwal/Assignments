@@ -1,0 +1,6 @@
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\bin\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\bin\Debug\FacultyEntity.pdb
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.csprojAssemblyReference.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.csproj.CoreCompileInputs.cache
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.dll
+C:\Users\kchidara\source\repos\FacultyManagementSystem\FacultyEntity\obj\Debug\FacultyEntity.pdb
